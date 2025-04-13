@@ -21,7 +21,6 @@ export default function AdmissionsPage() {
     studentFirstName: '',
     studentLastName: '',
     dateOfBirth: '',
-    gender: '',
     currentSchool: '',
     gradeLevel: '',
     parentFirstName: '',
@@ -64,7 +63,6 @@ export default function AdmissionsPage() {
       studentFirstName: '',
       studentLastName: '',
       dateOfBirth: '',
-      gender: '',
       currentSchool: '',
       gradeLevel: '',
       parentFirstName: '',
@@ -158,25 +156,6 @@ export default function AdmissionsPage() {
                         </div>
                         
                         <div className="space-y-2">
-                          <Label htmlFor="gender">Gender *</Label>
-                          <Select 
-                            value={formData.gender} 
-                            onValueChange={(value) => handleSelectChange('gender', value)}
-                          >
-                            <SelectTrigger id="gender">
-                              <SelectValue placeholder="Select gender" />
-                            </SelectTrigger>
-                            <SelectContent>
-                              <SelectItem value="male">Male</SelectItem>
-                              <SelectItem value="female">Female</SelectItem>
-                              <SelectItem value="other">Other</SelectItem>
-                            </SelectContent>
-                          </Select>
-                        </div>
-                      </div>
-                      
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div className="space-y-2">
                           <Label htmlFor="currentSchool">Current School</Label>
                           <Input 
                             id="currentSchool" 
@@ -185,7 +164,9 @@ export default function AdmissionsPage() {
                             onChange={handleInputChange} 
                           />
                         </div>
-                        
+                      </div>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="space-y-2">
                           <Label htmlFor="gradeLevel">Current Grade Level *</Label>
                           <Select 
@@ -196,8 +177,6 @@ export default function AdmissionsPage() {
                               <SelectValue placeholder="Select grade level" />
                             </SelectTrigger>
                             <SelectContent>
-                              <SelectItem value="grade7">Grade 7</SelectItem>
-                              <SelectItem value="grade8">Grade 8</SelectItem>
                               <SelectItem value="form1">Form 1</SelectItem>
                               <SelectItem value="form2">Form 2</SelectItem>
                               <SelectItem value="form3">Form 3</SelectItem>
