@@ -72,11 +72,9 @@ export default function Navbar() {
             ))}
           </div>
           
-          {/* Portal Login Button */}
+          {/* Space for future buttons if needed */}
           <div className="hidden md:flex items-center space-x-3">
-            <Button variant="outline" className="border-[#556B2F] text-[#556B2F] hover:bg-[#556B2F] hover:text-white">
-              Portal Login
-            </Button>
+            {/* No buttons for now */}
           </div>
           
           {/* Mobile Menu Button */}
@@ -114,9 +112,6 @@ export default function Navbar() {
                   {link.text}
                 </Link>
               ))}
-              <Link href="#" className="py-2 hover:text-[#800000] border-b border-gray-100">
-                Portal Login
-              </Link>
             </div>
           </div>
         )}
