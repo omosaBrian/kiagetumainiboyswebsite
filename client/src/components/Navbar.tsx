@@ -45,7 +45,7 @@ export default function Navbar() {
             <div className="flex items-center space-x-4 cursor-pointer">
               {/* Replace with actual school logo */}
               <div className="h-14 w-14 bg-[#556B2F] text-white rounded-full flex items-center justify-center">
-                <span className="font-bold text-lg">KT</span>
+                <span className="font-bold text-lg">KTBH</span>
               </div>
               <div className="hidden md:block">
                 <h1 className="font-serif text-xl font-bold text-[#556B2F]">Kiage Tumaini</h1>

@@ -31,16 +31,16 @@ export default function CampusDetail() {
       title: "Main Campus",
       description: "Our flagship campus features modern classrooms, science laboratories, computer labs, extensive sports facilities, and comfortable boarding accommodations for our senior students. Established in 2005, the Main Campus serves as the primary center for Kiage Tumaini Boy's High School, accommodating Forms 3 and 4 students. Situated on a spacious 15-acre property, the campus provides a conducive environment for academic excellence, character development, and extracurricular activities in a safe, structured setting.",
       images: [
-        "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1774&q=80",
-        "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
-        "https://images.unsplash.com/photo-1594312915251-48db9280c8f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+        "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464299870_8534882636600260_3927743441845293517_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeGSPd_x8BAVHI-GJrMlIJj8LstUW92TlCsuy1Rb3ZOUKxxE2jSe8N_hsxHyPT8aPTj0EUcWUUAhsiUVIghNAXt-&_nc_ohc=Ua_b22wz-uQQ7kNvwHXn1gB&_nc_oc=Adm1XzHqrTYbxRqc2XTOqfWhQC7KvudeJQ2P25D8gmFdg5sqJf8I5Z_5hNJ7Al--4OY&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=SFhtaQ01ApR51wTDshC7ig&oh=00_AfGI0GsT_xDxPRPTCPHUr_H4lxN6NoO3ouhKnpLzVKEKkA&oe=680198CF",
+        "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464430535_8538625349559322_1049268724463093517_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGoezw7-O73hSHb2s7_3KHzYAzof8-zGuxgDOh_z7Ma7OwVJEXTMW6qMb6bQO0PMw0Bf4HYcUzLSmr0-mPjiPUS&_nc_ohc=v1fTtCvVhjQQ7kNvwEeHgIe&_nc_oc=Adm_uQiDFGZ-ha-SFMWxa_SzP1E3fF_6HKtpzXcxlYAdiZ1pGBT_bEuaoTzTBdir_W8&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=jNcuUFmlNCEFLmlLytDp1g&oh=00_AfGXTZxuXP8iuiBsMvafPESUz0Mk7bUhpSqGnypCxireEg&oe=68019867",
+        "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464423884_8538992059522651_7933597546618355298_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHBrL8fVzyRquhBU5BTxBjePzFNT883hQU_MU1PzzeFBR9Z6VtOZBP4FRJvR6Ly9nLFkC7I1kqcKPgcRt9Qyxbh&_nc_ohc=OzYklR2EKb0Q7kNvwE-h2RN&_nc_oc=AdnT_8TUrHgS99zppyNPi-QoMI9CeZ7lV_DfCx3uWzooH9L6B8RgprNyJQ02KZdjiQQ&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=2awt1rQvFon5JG2kEAqViA&oh=00_AfHgm8oOB5b2WTmgRMiXCKJ6iLzAVZiFS2sbjhgGPeUyyQ&oe=68019D32"
       ],
       location: "Kitutu Chache South, Kisii County, Kenya",
       established: "2005",
       facilities: [
         {
           name: "Academic Facilities",
-          description: "16 modern classrooms, each equipped with digital projectors and smart boards. 3 fully-equipped science laboratories (Biology, Chemistry, Physics). 2 computer labs with high-speed internet access. Library with over 10,000 books and digital resources."
+          description: "modern classrooms. 3 fully-equipped science laboratories (Biology, Chemistry, Physics). 2 computer labs with high-speed internet access. Library with over 10,000 books and digital resources."
         },
         {
           name: "Boarding Facilities",
@@ -48,7 +48,7 @@ export default function CampusDetail() {
         },
         {
           name: "Sports and Recreation",
-          description: "400-meter athletic track. Football field meeting international standards. Basketball and volleyball courts. Indoor games facility for table tennis and chess. Swimming pool (25 meters) with trained lifeguards."
+          description: ". Football field.Access to Basketball and volleyball courts. Indoor games facility for table tennis and chess."
         },
         {
           name: "Administration",

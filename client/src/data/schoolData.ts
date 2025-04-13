@@ -97,7 +97,7 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Book A Tour",
     buttonLink: "/contact",
     buttonVariant: "secondary",
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/474380329_1131024558715269_6300357879248411838_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHa0R0AI-ryaNg_4zbA6C1NIdo8yyjk4K4h2jzLKOTgrjaKPHn1pf_GGGbyaj8EUunAuLaX5qz3oweqHw7X87eG&_nc_ohc=g8KXNEktlWkQ7kNvwFIQQdV&_nc_oc=Admby_AgqITT6zGLY9JcVfK6KxZCyY-h2vhN3Bno0CgVpSTXmRx3UK2Yrx9fK-sVNmE&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=dBNFxhEa2NmdgyxaehLkAg&oh=00_AfFB_A-_VLHdpEUTUKaVXMQE48F2fGrnEGM7aV3ztsDINA&oe=68018FC1"
   },
   {
     id: 2,
@@ -106,7 +106,7 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Learn More",
     buttonLink: "/about",
     buttonVariant: "primary",
-    image: "https://images.unsplash.com/photo-1627556704302-624286467c65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+    image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464878085_8563082607113596_1846206771570893739_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEB8Ihh9qI90enxL6dWT1m4nSZLsbFuhXudJkuxsW6Fe8Vyhy1bHZ_aWvZmAyh6HuM-WPBYCThrVyhSZe1jHfFS&_nc_ohc=z63RCg_587AQ7kNvwFMIhMV&_nc_oc=AdnE9qeMoKjiSSNp_28pKYz8bqAPyFgkc77HHwuHYYzIA7WEx7aYLV1FwaZr5QRn3oI&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=tby2Xi6abQ-uUe5CRosFng&oh=00_AfHap9i-TLUVEXF44QkJlwQ8k0uoDjiT0wGX-VZ4y9jJtA&oe=6801864E"
   },
   {
     id: 3,
@@ -115,7 +115,7 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Explore Programs",
     buttonLink: "/academics",
     buttonVariant: "primary",
-    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464748073_8563082410446949_8902343514568291852_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHCI0mfc3kRKSLC-8DlfaoduiVJFkozXHC6JUkWSjNccCJR0d2IePPPoYW2ZPNYhDffTGGVhGqBb5rjdcJLGenH&_nc_ohc=FSDSHAu4tAMQ7kNvwFHvPg9&_nc_oc=AdldhgGOS6K3fjuoEirdUCkrBvpxLR2256TBYzm9pR487qvxsm3IdFByNj_mIseNggg&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=iMoQ1PhS4AJNAhriA8AFTQ&oh=00_AfGPy6kNgovWZz58-Ky9OPzn8b-LBiJt8a3wgHswHlrZng&oe=68017A7B"
   }
 ];
 
