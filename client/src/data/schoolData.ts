@@ -156,7 +156,7 @@ export const newsItems: NewsItem[] = [
     title: "Math Competition Winners",
     excerpt: "Our students took first place in the county-wide mathematics competition, demonstrating exceptional problem-solving skills.",
     date: "2024-04-12",
-    image: "https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1774&q=80",
+    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464907002_8563082593780264_8063665135507507167_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGR28qjBixxbMj6bn5XWZQfnPAYouHMAzGc8Bii4cwDMdZbV8uXHfq0QC1_XTWcYOTUdMfiAdQzgZ3E8jq4B7F-&_nc_ohc=rP_fsE_KICQQ7kNvwFRHtpH&_nc_oc=AdkH15YS0MxUU1cn5kAsJRNQz1pFYQwCNZwDSYnS9-0_h5tz-wuDirKqLDueRM0KGaA&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=9duaZtNR692ysHsi4VM94Q&oh=00_AfGJP5JztiJhqLWDPn6cSrTzAPTcp6BE2a1ht6FUc5a58Q&oe=68018126",
     link: "/news-events/math-competition"
   },
   {
@@ -164,7 +164,7 @@ export const newsItems: NewsItem[] = [
     title: "TERM TWO SECONDARY SCHOOL SPORTS EVENTS",
     excerpt: "We are excited to announce we will be participating in the 2025 National Secondary School Sports Competition Term 2.",
     date: "2025-03-28",
-    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464270956_8534882233266967_862136308672317374_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEoy7RTysyiGKbJcfQHSvNJoX8rjHuUlWChfyuMe5SVYDkp81A6FQJBf8eNR5H1b-F_ANe5VglGaJ9EhP8G6a9b&_nc_ohc=xqeqXkCAZIEQ7kNvwFRY8cq&_nc_oc=Adl4O3BM7CvddDFc_mzshGXOafG4dOVfUJoMzdH0UHwxXWFUBM34LZdbeWC6eIeCr7E&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=4Lh26k6wiWRTvkpY8QWUyw&oh=00_AfHzH2yzcNuAQnHJNmoL071K0BZdMVpsALQ4lBjZqYlVeg&oe=68018F2B",
     link: "/news-events/science-lab"
   },
   {
@@ -172,7 +172,7 @@ export const newsItems: NewsItem[] = [
     title: "Inter-School Debate Competition",
     excerpt: "Our debate team showcased impressive critical thinking and public speaking skills at the regional debate competition.",
     date: "2025-03-15",
-    image: "https://images.unsplash.com/photo-1577896852618-3b24063968c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464278507_8534882213266969_6052500488332855631_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeF7iflAGklIbkVCblLFUFfPl0_XemC8XdKXT9d6YLxd0kLiH1IjbNZ0z97f9dMiZbS1jMeRkP8lNjnnE2ck-zVu&_nc_ohc=RM4cr_jDNE4Q7kNvwGA2Elr&_nc_oc=Adn18g9XM5c1njL1dX3DCN6E_cAXhvnXeEFGB5ftHfLeXv1FZfP0tTU_a0_alDotwuM&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=5IokcNVVbsyi_N-oQZvEWw&oh=00_AfEvmJk1w2n-ObQTWPaYkZ9CWGNGvZvmJ1cApb2EMmdoog&oe=68019CC4",
     link: "/news-events/debate-competition"
   }
 ];
@@ -249,7 +249,7 @@ export const programs: Program[] = [
     title: "Junior High School",
     ageRange: "Ages 12 - 14 Years Old",
     description: "Our junior program focuses on building a solid academic foundation while developing essential life skills and character values.",
-    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1732&q=80",
+    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464333366_8534882449933612_7210426615662670934_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEAtEUc3d6xomjQDR3xWkXWDszb_-Ut-eoOzNv_5S356jEUrDZVN7nO_QEKfgDhib4dv5IeL4cciT4lymm4bR22&_nc_ohc=ZXMx_RRrI4EQ7kNvwGpZ58X&_nc_oc=AdmoWsU6ITraiz_hNgLQJHM8F8KivNt13xzfguCCQzoEWR1eX52bASeZSmXI76T1m0w&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=vpjZIWomuTS0g5GAAGGQ8g&oh=00_AfF9oyqu9qcuwNVL1oQbvw0-ad-33vPE8QxjSWyNFzkZUw&oe=68017DE9",
     link: "/academics/junior",
     variant: "primary"
   },
@@ -258,7 +258,7 @@ export const programs: Program[] = [
     title: "Senior High School",
     ageRange: "Ages 15 - 18 Years Old",
     description: "Our senior program prepares students for KCSE examinations and higher education with specialized subjects and advanced learning.",
-    image: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464411889_8534882436600280_3268250614493585959_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeGlmv8ZKOuPjPbYUsgc8S_xQWPpMWVDx1dBY-kxZUPHV0OAXys5bZbpb_9mFWfDpLahGDhKNW17PVmxuvasuJkH&_nc_ohc=DdmseYd7JL0Q7kNvwG4bERn&_nc_oc=AdkBR7KWz-YnuuPnalrq6r80-GdsmZcyF-6blbnT1I_HbiqjOJMqV1-93s9PQNO-igU&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=uW3VDFqOD947gZxf3o-o6w&oh=00_AfG0aRQZM1cviEjyJkhGZFsWS_nSkOWz9lLy5HbX8gXTUQ&oe=68018CE8",
     link: "/academics/senior",
     variant: "secondary"
   },
@@ -267,7 +267,7 @@ export const programs: Program[] = [
     title: "Boarding Facilities",
     ageRange: "Ages 13 - 18 Years Old",
     description: "Our boarding program provides a supportive community environment that fosters independence, discipline, and academic focus.",
-    image: "https://images.unsplash.com/photo-1555601568-c9e6f328489b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80",
+    image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464525981_8534882946600229_7951063959042981708_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeH3-f-N9U31Ks5xPMN7O0ZXuc7YcUqA9ve5zthxSoD293Jj8DHzcg61zyEi2AFIh7DqLrM21unqo6p-V754bhWD&_nc_ohc=z_Gw1cK7iA0Q7kNvwH-Eb0t&_nc_oc=Adljx542KZ-5eNOL10N-SL6uJIavZgWQGru2c4_JTXNj7yS6pF5Z6gTE8XOlrZmY-7g&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=iecQubJop-MxnejNkQyV4Q&oh=00_AfFbXkGV9LjOiiXx4jGhbafyI9zm1FiX2hq3VT7RXkJiIg&oe=68017788",
     link: "/academics/boarding",
     variant: "primary"
   }
@@ -277,7 +277,7 @@ export const campusSection: CampusSection = {
   id: 1,
   title: "Main Campus",
   description: "Our flagship campus features modern classrooms, science laboratories, computer labs, extensive sports facilities, and comfortable boarding accommodations for our senior students.",
-  image: "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1774&q=80",
+  image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/463996998_8524221257666398_1881651535161341590_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF6HR0F5Nghu1gsU92-DebK2YOfLhOQ9o_Zg58uE5D2j0jsT6lBa19YUiXUjFYh9JS1Ta2Kf8AGO4y7EIgQhFMh&_nc_ohc=Ryq7p0xIkBAQ7kNvwG4ar7K&_nc_oc=AdmK0osjhNXFS0IvtTn-BKWqk17AmhZI5T2A8FthtIhR7hV38hU-Xu_imOI6wuJOWss&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=pwWwRv3GRODSO0R9K4M5PQ&oh=00_AfGPM21T_MaZnDH75XcIw6neko5BhP0YeqNaT8MH70qx-A&oe=68019BA9",
   link: "/campuses/main"
 };
 
@@ -364,13 +364,13 @@ export const technologyContent = {
   title: "Expanding the Bounds of Learning with Technology",
   description: "Our classrooms are no longer static entities confined by four walls. At Tumaini Kiage Boys High School, through the integration of modern technology, we're creating dynamic, interactive ecosystems where subjects come alive, inviting students to explore, question, and understand in ways previously unimaginable.",
   additionalInfo: "Technology-based learning sessions redefine the boundaries of education, making it an experiential journey rather than a passive acquisition of information. Our students develop critical thinking skills and prepare for the digital future while still maintaining our traditional values and educational excellence.",
-  image: "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+  image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464809487_8563082190446971_4149192860917869296_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHFP3zx-4sENrSTCrjpHnvnnr9_ejv1i1Oev396O_WLU10msqqqFw8RtkXYo3kvIaUC6-RUhXZ8XLbwyOXzuvtU&_nc_ohc=UKXg28LCrpwQ7kNvwHGFUSx&_nc_oc=AdmSdtGVLO3GXbAZsf7-e19Xm0-eiP72Hu5m3VOEMI0TybA-JtKjg2mFbs2_VFzbcOE&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=ZlUpZV0tA0yW_FezVwWMgw&oh=00_AfGjt_YAfg5mlOzw4AabYVbsWhewxbsb9Ri5TkVJNVwqcw&oe=68018437"
 };
 
 export const leadingSchoolContent = {
   title: "A Leading School",
   description: "As a member of the Kenya Secondary Schools Association, Kiage Tumaini Boy's High School is committed to providing a modern, forward-looking education while remaining anchored in the culture and traditions of Kenya and actively participating in the local community.",
-  image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+  image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464271207_8538625519559305_6323367213198880687_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGWuY8SOtnH8nMim2qD153yTPUT2E03UldM9RPYTTdSV20n06GAePlS0f7FJiw8BhIqbUURs0f-0Q9z9ZDX4vfq&_nc_ohc=7ZyjI_NrPNYQ7kNvwGCybwN&_nc_oc=AdlFqbFZpbxq-udnszcRis2kXV2cIXu8CLO7u_QkGV1uy6YQAeGPQzGVj3VCo9eNPrE&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=pVr9dhnKeV1OwlydzNCrEw&oh=00_AfGArkblE3Ub3mU3Hqk4t4-kGCS5RdOjG0NDte06CrBUcA&oe=6801A6E3"
 };
 
 export const callToActionContent = {
