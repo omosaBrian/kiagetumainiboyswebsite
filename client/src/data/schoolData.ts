@@ -370,7 +370,7 @@ export const technologyContent = {
 export const leadingSchoolContent = {
   title: "A Leading School",
   description: "As a member of the Kenya Secondary Schools Association, Kiage Tumaini Boy's High School is committed to providing a modern, forward-looking education while remaining anchored in the culture and traditions of Kenya and actively participating in the local community.",
-  image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464271207_8538625519559305_6323367213198880687_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGWuY8SOtnH8nMim2qD153yTPUT2E03UldM9RPYTTdSV20n06GAePlS0f7FJiw8BhIqbUURs0f-0Q9z9ZDX4vfq&_nc_ohc=7ZyjI_NrPNYQ7kNvwGCybwN&_nc_oc=AdlFqbFZpbxq-udnszcRis2kXV2cIXu8CLO7u_QkGV1uy6YQAeGPQzGVj3VCo9eNPrE&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=pVr9dhnKeV1OwlydzNCrEw&oh=00_AfGArkblE3Ub3mU3Hqk4t4-kGCS5RdOjG0NDte06CrBUcA&oe=6801A6E3"
+  image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/485022893_1173333304484394_4550122321825830294_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH0aXhGsIUdyZ-PzxcC_PpQBo_X877e11QGj9fzvt7XVCQbpRwlvvfjDbYFBmthsHH96WF9jHqOM7ECwSgHQufu&_nc_ohc=hMZVFFB3QNwQ7kNvwE65nth&_nc_oc=AdkVrKc1yVfd4LqGSwLFiCceNcsLaDcLSjQVHbhJqEaULUSGoKaThuvbtxjjhcmzdfM&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=Q__WSx2Vja3qWqVapCq2LA&oh=00_AfHbEFu1rk6iH-wB5qXg_w0ex6eoSQDTsb2qEZugQ8QSHQ&oe=68017CE4"
 };
 
 export const callToActionContent = {
