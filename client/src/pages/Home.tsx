@@ -8,6 +8,7 @@ import Academics from '@/components/Academics';
 import Results from '@/components/Results';
 import LeadingSchool from '@/components/LeadingSchool';
 import CallToAction from '@/components/CallToAction';
+import WelcomeVideo from '@/components/WelcomeVideo';
 import { useEffect } from 'react';
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
     <>
       <Hero />
       <About />
+      <WelcomeVideo />
       <NewsEvents />
       <Campus />
       <Features />
