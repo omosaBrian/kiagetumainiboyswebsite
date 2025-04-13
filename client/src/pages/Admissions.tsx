@@ -1,16 +1,83 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import CallToAction from '@/components/CallToAction';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Send } from 'lucide-react';
 import { Link } from 'wouter';
 import { Card, CardContent } from '@/components/ui/card';
-import { Download } from 'lucide-react';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import { Label } from '@/components/ui/label';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { toast } from '@/hooks/use-toast';
 
 export default function AdmissionsPage() {
   // Update page title
   useEffect(() => {
     document.title = "Admissions - Kiage Tumaini Boy's High School";
   }, []);
+
+  // Form state
+  const [formData, setFormData] = useState({
+    studentFirstName: '',
+    studentLastName: '',
+    dateOfBirth: '',
+    gender: '',
+    currentSchool: '',
+    gradeLevel: '',
+    parentFirstName: '',
+    parentLastName: '',
+    relationship: '',
+    email: '',
+    phone: '',
+    address: '',
+    entryYear: '',
+    howDidYouHear: '',
+    additionalInfo: ''
+  });
+
+  // Handle form input changes
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  // Handle select changes
+  const handleSelectChange = (name: string, value: string) => {
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  // Handle form submission
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    // In a real application, this would send the data to the server
+    console.log('Form submitted:', formData);
+    
+    // Show success message
+    toast({
+      title: "Application Submitted",
+      description: "Thank you for your application. We will contact you shortly.",
+    });
+    
+    // Reset form
+    setFormData({
+      studentFirstName: '',
+      studentLastName: '',
+      dateOfBirth: '',
+      gender: '',
+      currentSchool: '',
+      gradeLevel: '',
+      parentFirstName: '',
+      parentLastName: '',
+      relationship: '',
+      email: '',
+      phone: '',
+      address: '',
+      entryYear: '',
+      howDidYouHear: '',
+      additionalInfo: ''
+    });
+  };
 
   return (
     <>
@@ -46,14 +113,252 @@ export default function AdmissionsPage() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold text-[#800000] mb-3">Step 1: Application Submission</h3>
                   <p className="text-gray-700 mb-4">
-                    Complete and submit the application form along with all required documents. You can apply online or download the form below.
+                    Complete and submit the application form along with all required documents.
                   </p>
-                  <Button asChild className="bg-[#556B2F] hover:bg-[#455B1F]">
-                    <a href="#" className="flex items-center">
-                      <Download className="mr-2 h-4 w-4" />
-                      Download Application Form
-                    </a>
-                  </Button>
+                  
+                  <form onSubmit={handleSubmit} className="mt-6 space-y-6">
+                    <div className="space-y-4">
+                      <h4 className="text-lg font-semibold text-[#556B2F]">Student Information</h4>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="space-y-2">
+                          <Label htmlFor="studentFirstName">First Name *</Label>
+                          <Input 
+                            id="studentFirstName" 
+                            name="studentFirstName" 
+                            value={formData.studentFirstName} 
+                            onChange={handleInputChange} 
+                            required 
+                          />
+                        </div>
+                        
+                        <div className="space-y-2">
+                          <Label htmlFor="studentLastName">Last Name *</Label>
+                          <Input 
+                            id="studentLastName" 
+                            name="studentLastName" 
+                            value={formData.studentLastName} 
+                            onChange={handleInputChange} 
+                            required 
+                          />
+                        </div>
+                      </div>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="space-y-2">
+                          <Label htmlFor="dateOfBirth">Date of Birth *</Label>
+                          <Input 
+                            id="dateOfBirth" 
+                            name="dateOfBirth" 
+                            type="date" 
+                            value={formData.dateOfBirth} 
+                            onChange={handleInputChange} 
+                            required 
+                          />
+                        </div>
+                        
+                        <div className="space-y-2">
+                          <Label htmlFor="gender">Gender *</Label>
+                          <Select 
+                            value={formData.gender} 
+                            onValueChange={(value) => handleSelectChange('gender', value)}
+                          >
+                            <SelectTrigger id="gender">
+                              <SelectValue placeholder="Select gender" />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value="male">Male</SelectItem>
+                              <SelectItem value="female">Female</SelectItem>
+                              <SelectItem value="other">Other</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        </div>
+                      </div>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="space-y-2">
+                          <Label htmlFor="currentSchool">Current School</Label>
+                          <Input 
+                            id="currentSchool" 
+                            name="currentSchool" 
+                            value={formData.currentSchool} 
+                            onChange={handleInputChange} 
+                          />
+                        </div>
+                        
+                        <div className="space-y-2">
+                          <Label htmlFor="gradeLevel">Current Grade Level *</Label>
+                          <Select 
+                            value={formData.gradeLevel} 
+                            onValueChange={(value) => handleSelectChange('gradeLevel', value)}
+                          >
+                            <SelectTrigger id="gradeLevel">
+                              <SelectValue placeholder="Select grade level" />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value="grade7">Grade 7</SelectItem>
+                              <SelectItem value="grade8">Grade 8</SelectItem>
+                              <SelectItem value="form1">Form 1</SelectItem>
+                              <SelectItem value="form2">Form 2</SelectItem>
+                              <SelectItem value="form3">Form 3</SelectItem>
+                              <SelectItem value="form4">Form 4</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-4 pt-4 border-t border-gray-200">
+                      <h4 className="text-lg font-semibold text-[#556B2F]">Parent/Guardian Information</h4>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="space-y-2">
+                          <Label htmlFor="parentFirstName">First Name *</Label>
+                          <Input 
+                            id="parentFirstName" 
+                            name="parentFirstName" 
+                            value={formData.parentFirstName} 
+                            onChange={handleInputChange} 
+                            required 
+                          />
+                        </div>
+                        
+                        <div className="space-y-2">
+                          <Label htmlFor="parentLastName">Last Name *</Label>
+                          <Input 
+                            id="parentLastName" 
+                            name="parentLastName" 
+                            value={formData.parentLastName} 
+                            onChange={handleInputChange} 
+                            required 
+                          />
+                        </div>
+                      </div>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="space-y-2">
+                          <Label htmlFor="relationship">Relationship to Student *</Label>
+                          <Select 
+                            value={formData.relationship} 
+                            onValueChange={(value) => handleSelectChange('relationship', value)}
+                          >
+                            <SelectTrigger id="relationship">
+                              <SelectValue placeholder="Select relationship" />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value="parent">Parent</SelectItem>
+                              <SelectItem value="guardian">Legal Guardian</SelectItem>
+                              <SelectItem value="other">Other</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        </div>
+                        
+                        <div className="space-y-2">
+                          <Label htmlFor="email">Email Address *</Label>
+                          <Input 
+                            id="email" 
+                            name="email" 
+                            type="email" 
+                            value={formData.email} 
+                            onChange={handleInputChange} 
+                            required 
+                          />
+                        </div>
+                      </div>
+                      
+                      <div className="grid grid-cols-1 gap-4">
+                        <div className="space-y-2">
+                          <Label htmlFor="phone">Phone Number *</Label>
+                          <Input 
+                            id="phone" 
+                            name="phone" 
+                            type="tel" 
+                            value={formData.phone} 
+                            onChange={handleInputChange} 
+                            required 
+                          />
+                        </div>
+                        
+                        <div className="space-y-2">
+                          <Label htmlFor="address">Home Address *</Label>
+                          <Textarea 
+                            id="address" 
+                            name="address" 
+                            rows={3} 
+                            value={formData.address} 
+                            onChange={handleInputChange} 
+                            required 
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="space-y-4 pt-4 border-t border-gray-200">
+                      <h4 className="text-lg font-semibold text-[#556B2F]">Additional Information</h4>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="space-y-2">
+                          <Label htmlFor="entryYear">Desired Entry Year *</Label>
+                          <Select 
+                            value={formData.entryYear} 
+                            onValueChange={(value) => handleSelectChange('entryYear', value)}
+                          >
+                            <SelectTrigger id="entryYear">
+                              <SelectValue placeholder="Select year" />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value="2025">2025</SelectItem>
+                              <SelectItem value="2026">2026</SelectItem>
+                              <SelectItem value="2027">2027</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        </div>
+                        
+                        <div className="space-y-2">
+                          <Label htmlFor="howDidYouHear">How did you hear about us?</Label>
+                          <Select 
+                            value={formData.howDidYouHear} 
+                            onValueChange={(value) => handleSelectChange('howDidYouHear', value)}
+                          >
+                            <SelectTrigger id="howDidYouHear">
+                              <SelectValue placeholder="Select option" />
+                            </SelectTrigger>
+                            <SelectContent>
+                              <SelectItem value="website">School Website</SelectItem>
+                              <SelectItem value="socialMedia">Social Media</SelectItem>
+                              <SelectItem value="currentStudent">Current Student</SelectItem>
+                              <SelectItem value="alumnus">Alumnus</SelectItem>
+                              <SelectItem value="newspaper">Newspaper</SelectItem>
+                              <SelectItem value="event">School Event</SelectItem>
+                              <SelectItem value="other">Other</SelectItem>
+                            </SelectContent>
+                          </Select>
+                        </div>
+                      </div>
+                      
+                      <div className="space-y-2">
+                        <Label htmlFor="additionalInfo">Additional Information</Label>
+                        <Textarea 
+                          id="additionalInfo" 
+                          name="additionalInfo" 
+                          rows={4} 
+                          placeholder="Please share any additional information about the student that may be relevant to their application."
+                          value={formData.additionalInfo} 
+                          onChange={handleInputChange} 
+                        />
+                      </div>
+                    </div>
+                    
+                    <div className="pt-4">
+                      <Button 
+                        type="submit" 
+                        className="w-full md:w-auto bg-[#800000] hover:bg-[#660000] text-white"
+                      >
+                        <Send className="mr-2 h-4 w-4" />
+                        Submit Application
+                      </Button>
+                    </div>
+                  </form>
                 </CardContent>
               </Card>
               

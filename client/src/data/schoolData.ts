@@ -401,7 +401,6 @@ export const footerContent = {
     { text: "Academics", link: "/academics" },
     { text: "Admissions", link: "/admissions" },
     { text: "News & Events", link: "/news-events" },
-    { text: "Campus Life", link: "/campus-life" },
     { text: "Contact Us", link: "/contact" }
   ],
   contactInfo: {
