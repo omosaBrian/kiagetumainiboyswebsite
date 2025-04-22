@@ -97,7 +97,7 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Book A Tour",
     buttonLink: "/contact",
     buttonVariant: "secondary",
-    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/474380329_1131024558715269_6300357879248411838_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHa0R0AI-ryaNg_4zbA6C1NIdo8yyjk4K4h2jzLKOTgrjaKPHn1pf_GGGbyaj8EUunAuLaX5qz3oweqHw7X87eG&_nc_ohc=g8KXNEktlWkQ7kNvwFIQQdV&_nc_oc=Admby_AgqITT6zGLY9JcVfK6KxZCyY-h2vhN3Bno0CgVpSTXmRx3UK2Yrx9fK-sVNmE&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=dBNFxhEa2NmdgyxaehLkAg&oh=00_AfFB_A-_VLHdpEUTUKaVXMQE48F2fGrnEGM7aV3ztsDINA&oe=68018FC1"
+    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464323190_8534882639933593_2849266266521394042_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEGC_E6a4uug4dL9lijNygbyaOtZKdZa7fJo61kp1lrt5nF9JzVERz1rfigzSOawLKFY2pK9nNldWBhD8euSuXe&_nc_ohc=Y6FnKjKvokEQ7kNvwGp_WmG&_nc_oc=AdmGA0fIOKKIh2BkBxqKwE5oZV8v-DheRLPwsRPNkOFiRTM4oheMF3kmHKqzbB9tz6o&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=jwn14-KslP2uP8x2Yqcu-w&oh=00_AfEe9CbnvYzerbbcvGaf0_irctv8tvsArv8fDAz_qIa4YA&oe=680D1B13"
   },
   {
     id: 2,
@@ -110,8 +110,8 @@ export const heroSlides: HeroSlide[] = [
   },
   {
     id: 3,
-    title: "Building Character",
-    description: "Developing young men of integrity, discipline, and leadership",
+    title: "God, Discipline and Success",
+    description: "Our motto guides us in nurturing tomorrow's leaders",
     buttonText: "Explore Programs",
     buttonLink: "/academics",
     buttonVariant: "primary",
