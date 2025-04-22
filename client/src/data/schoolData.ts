@@ -373,22 +373,7 @@ export const leadingSchoolContent = {
   image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/485022893_1173333304484394_4550122321825830294_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH0aXhGsIUdyZ-PzxcC_PpQBo_X877e11QGj9fzvt7XVCQbpRwlvvfjDbYFBmthsHH96WF9jHqOM7ECwSgHQufu&_nc_ohc=hMZVFFB3QNwQ7kNvwE65nth&_nc_oc=AdkVrKc1yVfd4LqGSwLFiCceNcsLaDcLSjQVHbhJqEaULUSGoKaThuvbtxjjhcmzdfM&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=Q__WSx2Vja3qWqVapCq2LA&oh=00_AfHbEFu1rk6iH-wB5qXg_w0ex6eoSQDTsb2qEZugQ8QSHQ&oe=68017CE4"
 };
 
-export const callToActionContent = {
-  title: "Join Our School Community",
-  description: "Experience excellence in education at Kiage Tumaini Boys High School. We invite you to become part of our vibrant learning community.",
-  buttons: [
-    {
-      text: "Book A Tour",
-      link: "/contact",
-      variant: "white"
-    },
-    {
-      text: "Apply Now",
-      link: "/admissions",
-      variant: "primary"
-    }
-  ]
-};
+
 
 export const footerContent = {
   schoolInfo: {

@@ -42,7 +42,6 @@ export default function AboutPage() {
       <Features />
       <Technology />
       <LeadingSchool />
-      <CallToAction />
     </>
   );
 }

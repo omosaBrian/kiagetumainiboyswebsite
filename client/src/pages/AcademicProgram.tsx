@@ -359,8 +359,6 @@ export default function AcademicProgram() {
           </div>
         </div>
       </div>
-      
-      <CallToAction />
     </>
   );
 }
