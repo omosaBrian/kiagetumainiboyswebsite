@@ -356,8 +356,35 @@ export const benefits: Benefit[] = [
 ];
 
 export const aboutContent = {
-  description: "Established in 2005, Tumaini Kiage Boys High School is a premier educational institution located in Kitutu Chache South Sub County, Kisii County, in the Nyanza region of Kenya. Our school provides exceptional modern education with a comprehensive curriculum.",
-  additionalInfo: "Every student is inherently unique. Therefore, at our school, our experienced educators apply a personalized teaching approach to meet the needs of each individual. The effectiveness of our student-centered methodology is outstanding. Our students achieve excellent KCSE results and embody a strong value system that unlocks their full potential, preparing them for lifelong success."
+  description: "Kiage Tumaini Boys High School is located in Kitutu Chache South, Kisii County, within the Nyanza region of Kenya. As an ISO certified institution, we are committed to providing affordable, accessible, sustainable and quality education by ensuring our services are effective and efficient to meet stakeholder expectations.",
+  qualityObjectives: [
+    "Achieve and maintain a level of quality education which enhances the institution's reputation",
+    "Ensure compliance with educational standards and safety requirements",
+    "Maintain high academic performance and student success rates",
+    "Foster continuous improvement in teaching and learning methodologies"
+  ],
+  history: {
+    establishment: "Founded in 2005 as a boys' secondary school with a vision to provide quality education",
+    milestones: [
+      {
+        year: "2005",
+        event: "Official establishment and admission of first students"
+      },
+      {
+        year: "2010",
+        event: "Achieved ISO certification for quality education standards"
+      },
+      {
+        year: "2015",
+        event: "Expanded facilities to accommodate growing student population"
+      },
+      {
+        year: "2020",
+        event: "Recognized as one of the top-performing schools in Kisii County"
+      }
+    ]
+  },
+  additionalInfo: "The school maintains high standards of academic excellence while fostering character development and leadership skills in our students. Our commitment to quality education and continuous improvement has established us as a leading institution in the region."
 };
 
 export const technologyContent = {

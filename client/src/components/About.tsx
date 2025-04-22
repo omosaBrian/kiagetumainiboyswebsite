@@ -29,6 +29,29 @@ export default function About() {
             <p className="text-gray-700 mb-6 leading-relaxed">
               {aboutContent.description}
             </p>
+            
+            <div className="mb-6">
+              <h3 className="text-xl font-bold text-[#556B2F] mb-3">Quality Objectives</h3>
+              <ul className="list-disc pl-5 space-y-2">
+                {aboutContent.qualityObjectives.map((objective, index) => (
+                  <li key={index} className="text-gray-700">{objective}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="mb-6">
+              <h3 className="text-xl font-bold text-[#556B2F] mb-3">Our History</h3>
+              <p className="text-gray-700 mb-3">{aboutContent.history.establishment}</p>
+              <div className="space-y-3">
+                {aboutContent.history.milestones.map((milestone, index) => (
+                  <div key={index} className="flex items-start">
+                    <span className="font-bold text-[#800000] mr-3">{milestone.year}</span>
+                    <span className="text-gray-700">{milestone.event}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
             <p className="text-gray-700 mb-6 leading-relaxed">
               {aboutContent.additionalInfo}
             </p>
