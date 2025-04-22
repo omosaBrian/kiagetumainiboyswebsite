@@ -31,10 +31,16 @@ export default function About() {
             </p>
             
             <div className="mb-6">
-              <h3 className="text-xl font-bold text-[#556B2F] mb-3">Quality Objectives</h3>
+              <h3 className="text-xl font-bold text-[#556B2F] mb-3">Vision</h3>
+              <p className="text-gray-700 mb-4">{aboutContent.vision}</p>
+              
+              <h3 className="text-xl font-bold text-[#556B2F] mb-3">Motto</h3>
+              <p className="text-gray-700 mb-4">{aboutContent.motto}</p>
+              
+              <h3 className="text-xl font-bold text-[#556B2F] mb-3">Core Values</h3>
               <ul className="list-disc pl-5 space-y-2">
-                {aboutContent.qualityObjectives.map((objective, index) => (
-                  <li key={index} className="text-gray-700">{objective}</li>
+                {aboutContent.coreValues.map((value, index) => (
+                  <li key={index} className="text-gray-700">{value}</li>
                 ))}
               </ul>
             </div>

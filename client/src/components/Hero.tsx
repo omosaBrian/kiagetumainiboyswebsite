@@ -56,23 +56,13 @@ export default function Hero() {
                 </p>
                 <div className="flex flex-wrap gap-4">
                   {index === 0 && (
-                    <>
-                      <Button
-                        asChild
-                        size="lg"
-                        className="bg-[#800000] hover:bg-[#660000] text-white shadow-lg"
-                      >
-                        <Link href="/contact">{slide.buttonText}</Link>
-                      </Button>
-                      <Button
-                        asChild
-                        size="lg"
-                        variant="secondary" 
-                        className="bg-white text-[#556B2F] hover:bg-gray-100 shadow-lg"
-                      >
-                        <Link href="/admissions">Apply Now</Link>
-                      </Button>
-                    </>
+                    <Button
+                      asChild
+                      size="lg"
+                      className="bg-[#800000] hover:bg-[#660000] text-white shadow-lg"
+                    >
+                      <Link href="/about">Learn More</Link>
+                    </Button>
                   )}
                   {index > 0 && (
                     <Button

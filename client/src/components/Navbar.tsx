@@ -9,7 +9,6 @@ const navLinks = [
   { text: 'About', path: '/about' },
   { text: 'Academics', path: '/academics' },
   { text: 'News & Events', path: '/news-events' },
-  { text: 'Admissions', path: '/admissions' },
   { text: 'Contact', path: '/contact' }
 ];
 

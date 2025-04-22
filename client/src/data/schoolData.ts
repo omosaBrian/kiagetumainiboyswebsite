@@ -357,29 +357,32 @@ export const benefits: Benefit[] = [
 
 export const aboutContent = {
   description: "Kiage Tumaini Boys High School is located in Kitutu Chache South, Kisii County, within the Nyanza region of Kenya. As an ISO certified institution, we are committed to providing affordable, accessible, sustainable and quality education by ensuring our services are effective and efficient to meet stakeholder expectations.",
-  qualityObjectives: [
-    "Achieve and maintain a level of quality education which enhances the institution's reputation",
-    "Ensure compliance with educational standards and safety requirements",
-    "Maintain high academic performance and student success rates",
-    "Foster continuous improvement in teaching and learning methodologies"
+  vision: "To be a leading center of academic excellence and character formation in Kenya",
+  motto: "God, Discipline and Success",
+  coreValues: [
+    "Excellence in Learning",
+    "Integrity and Character",
+    "Spiritual Growth",
+    "Leadership Development",
+    "Community Service"
   ],
   history: {
-    establishment: "Founded in 2005 as a boys' secondary school with a vision to provide quality education",
+    establishment: "Founded in 2011 as a boys' secondary school with a vision to provide quality education",
     milestones: [
       {
-        year: "2005",
+        year: "2011",
         event: "Official establishment and admission of first students"
       },
       {
-        year: "2010",
+        year: "2015",
         event: "Achieved ISO certification for quality education standards"
       },
       {
-        year: "2015",
+        year: "2018",
         event: "Expanded facilities to accommodate growing student population"
       },
       {
-        year: "2020",
+        year: "2023",
         event: "Recognized as one of the top-performing schools in Kisii County"
       }
     ]

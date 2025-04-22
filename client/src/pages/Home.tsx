@@ -1,6 +1,5 @@
 import Hero from '@/components/Hero';
 import About from '@/components/About';
-import NewsEvents from '@/components/NewsEvents';
 import Features from '@/components/Features';
 import Technology from '@/components/Technology';
 import LeadingSchool from '@/components/LeadingSchool';
