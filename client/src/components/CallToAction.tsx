@@ -1,37 +1,34 @@
 import { Link } from 'wouter';
-import { Calendar, UserPlus } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { callToActionContent } from '@/data/schoolData';
 
 export default function CallToAction() {
   return (
-    <section className="py-16 bg-[#800000] text-white">
-      <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-          {callToActionContent.title}
-        </h2>
-        <p className="text-lg max-w-3xl mx-auto mb-8 opacity-90">
-          {callToActionContent.description}
-        </p>
-        <div className="flex flex-wrap justify-center gap-4">
-          {callToActionContent.buttons.map((button, index) => (
+    <section className="bg-[#556B2F] py-16">
+      <div className="container mx-auto px-4">
+        <div className="text-center">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
+            Join Our Community
+          </h2>
+          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
+            Experience excellence in education at our institution
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
             <Button
-              key={index}
+              asChild
+              variant="secondary"
+              size="lg"
+              className="bg-white text-[#556B2F] hover:bg-gray-100"
+            >
+              <Link href="/contact">Contact Us</Link>
+            </Button>
+            <Button
               asChild
               size="lg"
-              variant={button.variant === 'white' ? 'secondary' : 'default'}
-              className={
-                button.variant === 'white' 
-                  ? "bg-white text-[#800000] hover:bg-gray-100 shadow-lg" 
-                  : "bg-[#556B2F] hover:bg-[#455B1F] text-white shadow-lg"
-              }
+              className="bg-[#800000] hover:bg-[#660000] text-white"
             >
-              <Link href={button.link} className="flex items-center">
-                {index === 0 ? <Calendar className="mr-2 h-5 w-5" /> : <UserPlus className="mr-2 h-5 w-5" />}
-                {button.text}
-              </Link>
+              <Link href="/about">Learn More</Link>
             </Button>
-          ))}
+          </div>
         </div>
       </div>
     </section>

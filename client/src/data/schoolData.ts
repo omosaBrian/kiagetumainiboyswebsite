@@ -97,7 +97,7 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Book A Tour",
     buttonLink: "/contact",
     buttonVariant: "secondary",
-    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464323190_8534882639933593_2849266266521394042_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEGC_E6a4uug4dL9lijNygbyaOtZKdZa7fJo61kp1lrt5nF9JzVERz1rfigzSOawLKFY2pK9nNldWBhD8euSuXe&_nc_ohc=Y6FnKjKvokEQ7kNvwGp_WmG&_nc_oc=AdmGA0fIOKKIh2BkBxqKwE5oZV8v-DheRLPwsRPNkOFiRTM4oheMF3kmHKqzbB9tz6o&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=jwn14-KslP2uP8x2Yqcu-w&oh=00_AfEe9CbnvYzerbbcvGaf0_irctv8tvsArv8fDAz_qIa4YA&oe=680D1B13"
+    image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/474380329_1131024558715269_6300357879248411838_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHa0R0AI-ryaNg_4zbA6C1NIdo8yyjk4K4h2jzLKOTgrjaKPHn1pf_GGGbyaj8EUunAuLaX5qz3oweqHw7X87eG&_nc_ohc=-KdI5m5NXgsQ7kNvwHzYmgd&_nc_oc=Adk5KZsDNoePkLFy1aisBPA_zHOl1ttdnXgNb2_Ta4lY1ODHYdn4Er63oEJRcM4lc6s&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=UlHnpio9wL1Dw1tp3_L1TQ&oh=00_AfF4xBHNlMMsbwQQPkKjhP5r2INiOmYIDvqckkKGbEPuEw&oe=680D6D41"
   },
   {
     id: 2,
@@ -106,7 +106,7 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Learn More",
     buttonLink: "/about",
     buttonVariant: "primary",
-    image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464878085_8563082607113596_1846206771570893739_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEB8Ihh9qI90enxL6dWT1m4nSZLsbFuhXudJkuxsW6Fe8Vyhy1bHZ_aWvZmAyh6HuM-WPBYCThrVyhSZe1jHfFS&_nc_ohc=z63RCg_587AQ7kNvwFMIhMV&_nc_oc=AdnE9qeMoKjiSSNp_28pKYz8bqAPyFgkc77HHwuHYYzIA7WEx7aYLV1FwaZr5QRn3oI&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=tby2Xi6abQ-uUe5CRosFng&oh=00_AfHap9i-TLUVEXF44QkJlwQ8k0uoDjiT0wGX-VZ4y9jJtA&oe=6801864E"
+    image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/299172793_581407337010330_517400459563407425_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHgLBwFUP1aShtirHL7gWdNZ0F03qHkThdnQXTeoeROF_yvBU82sz5q5Q2bsmb9X9gI-wTsaK3t8Mbv6hwWPkPb&_nc_ohc=DY_XOyTwMQIQ7kNvwEG21S_&_nc_oc=AdnIVVqrCoRx5TqYVXvj2AqlX40mBplHka-eJMLexq2gTvHR8_tFIvwJq2f2ZgrgIBQ&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=HYCWoGH0RRDM3t4r7RJ58w&oh=00_AfEH4YwfBEMaWHsIOT6IAYG3iiiMJvYZgfIIgh0l8EsZwA&oe=680D6CE6"
   },
   {
     id: 3,
@@ -115,7 +115,7 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Explore Programs",
     buttonLink: "/academics",
     buttonVariant: "primary",
-    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464748073_8563082410446949_8902343514568291852_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHCI0mfc3kRKSLC-8DlfaoduiVJFkozXHC6JUkWSjNccCJR0d2IePPPoYW2ZPNYhDffTGGVhGqBb5rjdcJLGenH&_nc_ohc=FSDSHAu4tAMQ7kNvwFHvPg9&_nc_oc=AdldhgGOS6K3fjuoEirdUCkrBvpxLR2256TBYzm9pR487qvxsm3IdFByNj_mIseNggg&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=iMoQ1PhS4AJNAhriA8AFTQ&oh=00_AfGPy6kNgovWZz58-Ky9OPzn8b-LBiJt8a3wgHswHlrZng&oe=68017A7B"
+    image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t1.6435-9/45288703_1950747978347125_3936876227352068096_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGoWCXCi7EGUO5qGeJ3OzYP9F6HSlbGIuf0XodKVsYi59JuSokirfcUilcWQVXRFkwOZPPTNHgWF6G6Ph2nRMVH&_nc_ohc=xEtQAHIvnLoQ7kNvwEqSpjO&_nc_oc=AdnXbeQpEDQdugCKImRBFLrf1GKGjnkolyPA9-xPO3V7__Cerc3pGRdccKsS4-LsCCU&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=oK59-1L_4jRM5fOzYDDIIQ&oh=00_AfHeGOcd8O6lbFoKuNFER73zrPNXV-63_j6Wc5umhi2fDg&oe=682F2161"
   }
 ];
 
