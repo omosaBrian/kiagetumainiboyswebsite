@@ -12,8 +12,6 @@ import Layout from "@/components/Layout";
 // Specific detail pages
 import NewsDetail from "@/pages/NewsDetail";
 import AcademicProgram from "@/pages/AcademicProgram";
-import CampusDetail from "@/pages/CampusDetail";
-
 function Router() {
   return (
     <Layout>
@@ -25,7 +23,6 @@ function Router() {
         <Route path="/news-events" component={NewsEvents} />
         <Route path="/news-events/:slug" component={NewsDetail} />
         <Route path="/contact" component={Contact} />
-        <Route path="/campuses/:campus" component={CampusDetail} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
