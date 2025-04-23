@@ -153,27 +153,35 @@ export const statistics: Statistic[] = [
 export const newsItems: NewsItem[] = [
   {
     id: 1,
-    title: "Math Competition Winners",
-    excerpt: "Our students took first place in the county-wide mathematics competition, demonstrating exceptional problem-solving skills.",
-    date: "2024-04-12",
-    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464907002_8563082593780264_8063665135507507167_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGR28qjBixxbMj6bn5XWZQfnPAYouHMAzGc8Bii4cwDMdZbV8uXHfq0QC1_XTWcYOTUdMfiAdQzgZ3E8jq4B7F-&_nc_ohc=rP_fsE_KICQQ7kNvwFRHtpH&_nc_oc=AdkH15YS0MxUU1cn5kAsJRNQz1pFYQwCNZwDSYnS9-0_h5tz-wuDirKqLDueRM0KGaA&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=9duaZtNR692ysHsi4VM94Q&oh=00_AfGJP5JztiJhqLWDPn6cSrTzAPTcp6BE2a1ht6FUc5a58Q&oe=68018126",
-    link: "/news-events/math-competition"
+    image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464748073_8563082410446949_8902343514568291852_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHCI0mfc3kRKSLC-8DlfaoduiVJFkozXHC6JUkWSjNccCJR0d2IePPPoYW2ZPNYhDffTGGVhGqBb5rjdcJLGenH&_nc_ohc=OwT-NLHQV3wQ7kNvwFpLLZp&_nc_oc=Adn7cooXdy_ZUncWfyP2EpPQt1JDIYGiCf6Umkk05Fq2ev7OOncWZESRC7jW5qYtrN0&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=wRFTqYxG7-TWCnC9X5Trcw&oh=00_AfFHwClir5rxqEFfMq7qSinLYe0pd1Z5ONUodtcpY7hIjQ&oe=680EA97B",
+    title: "Kiage Tumaini Celebrates 12 Years of Excellence",
+    excerpt: "The school recently celebrated its 12th anniversary with a grand event that recognized the achievements of students, staff, and alumni. ",
+    date: "2023-05-12",
+    link: "/news-events/12th-anniversary-celebration"
   },
   {
     id: 2,
-    title: "TERM TWO SECONDARY SCHOOL SPORTS EVENTS",
-    excerpt: "We are excited to announce we will be participating in the 2025 National Secondary School Sports Competition Term 2.",
-    date: "2025-03-28",
-    image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464270956_8534882233266967_862136308672317374_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEoy7RTysyiGKbJcfQHSvNJoX8rjHuUlWChfyuMe5SVYDkp81A6FQJBf8eNR5H1b-F_ANe5VglGaJ9EhP8G6a9b&_nc_ohc=xqeqXkCAZIEQ7kNvwFRY8cq&_nc_oc=Adl4O3BM7CvddDFc_mzshGXOafG4dOVfUJoMzdH0UHwxXWFUBM34LZdbeWC6eIeCr7E&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=4Lh26k6wiWRTvkpY8QWUyw&oh=00_AfHzH2yzcNuAQnHJNmoL071K0BZdMVpsALQ4lBjZqYlVeg&oe=68018F2B",
-    link: "/news-events/science-lab"
+    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464907002_8563082593780264_8063665135507507167_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGR28qjBixxbMj6bn5XWZQfnPAYouHMAzGc8Bii4cwDMdZbV8uXHfq0QC1_XTWcYOTUdMfiAdQzgZ3E8jq4B7F-&_nc_ohc=rP_fsE_KICQQ7kNvwFRHtpH&_nc_oc=AdkH15YS0MxUU1cn5kAsJRNQz1pFYQwCNZwDSYnS9-0_h5tz-wuDirKqLDueRM0KGaA&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=9duaZtNR692ysHsi4VM94Q&oh=00_AfGJP5JztiJhqLWDPn6cSrTzAPTcp6BE2a1ht6FUc5a58Q&oe=68018126",
+    title: "Kiage Tumaini Students Shine at National Science Fair",
+    excerpt: "Our students recently participated in the National Science Fair, showcasing their innovative projects and winning several awards.",
+    date: "2023-04-28",
+    link: "/news-events/science-fair-success"
   },
   {
     id: 3,
-    title: "Inter-School Debate Competition",
-    excerpt: "Our debate team showcased impressive critical thinking and public speaking skills at the regional debate competition.",
-    date: "2025-03-15",
-    image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464278507_8534882213266969_6052500488332855631_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeF7iflAGklIbkVCblLFUFfPl0_XemC8XdKXT9d6YLxd0kLiH1IjbNZ0z97f9dMiZbS1jMeRkP8lNjnnE2ck-zVu&_nc_ohc=RM4cr_jDNE4Q7kNvwGA2Elr&_nc_oc=Adn18g9XM5c1njL1dX3DCN6E_cAXhvnXeEFGB5ftHfLeXv1FZfP0tTU_a0_alDotwuM&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=5IokcNVVbsyi_N-oQZvEWw&oh=00_AfEvmJk1w2n-ObQTWPaYkZ9CWGNGvZvmJ1cApb2EMmdoog&oe=68019CC4",
-    link: "/news-events/debate-competition"
+    image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464270956_8534882233266967_862136308672317374_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEoy7RTysyiGKbJcfQHSvNJoX8rjHuUlWChfyuMe5SVYDkp81A6FQJBf8eNR5H1b-F_ANe5VglGaJ9EhP8G6a9b&_nc_ohc=xqeqXkCAZIEQ7kNvwFRY8cq&_nc_oc=Adl4O3BM7CvddDFc_mzshGXOafG4dOVfUJoMzdH0UHwxXWFUBM34LZdbeWC6eIeCr7E&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=4Lh26k6wiWRTvkpY8QWUyw&oh=00_AfHzH2yzcNuAQnHJNmoL071K0BZdMVpsALQ4lBjZqYlVeg&oe=68018F2B",
+    title: "New Partnership with University of Nairobi",
+    excerpt: "Kiage Tumaini has established a new partnership with the University of Nairobi to provide academic and research opportunities for our students.",
+    date: "2023-03-15",
+    link: "/news-events/university-partnership"
+  },
+  {
+    id: 4,
+    image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464907002_8563082593780264_8063665135507507167_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGR28qjBixxbMj6bn5XWZQfnPAYouHMAzGc8Bii4cwDMdZbV8uXHfq0QC1_XTWcYOTUdMfiAdQzgZ3E8jq4B7F-&_nc_ohc=EQJa2QwWNuEQ7kNvwH8Jz9b&_nc_oc=AdmpadvEAAndsqRvVBoAhSNGEIwE2GNi2C6TtE3zDPVNDjtuz0f-op1H6rUigcN6lOk&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=Rm7YMw2YoAk0dTeqMzreEQ&oh=00_AfFvzfZH6_pXLd2bE3_atEjfGKnm36GJiD2llnGabwRaIA&oe=680EB026",
+    title: "Kiage Tumaini Hosts Annual Sports Day",
+    excerpt: "The school's annual sports day was a huge success, filled with exciting competitions and displays of athleticism.",
+    date: "2023-02-25",
+    link: "/news-events/sports-day-2023"
   }
 ];
 
@@ -185,27 +193,7 @@ export const upcomingEvents: Event[] = [
     day: 25,
     month: "Apr",
     time: "8:00 AM",
-    location: "Both Campuses",
-    color: "secondary"
-  },
-  {
-    id: 2,
-    title: "Kiage Tumaini Annual Sports Day",
-    date: "2025-05-10",
-    day: 10,
-    month: "May",
-    time: "9:00 AM",
-    location: "Main Campus Sports Grounds",
-    color: "primary"
-  },
-  {
-    id: 3,
-    title: "Form 4 Career Day",
-    date: "2025-06-17",
-    day: 17,
-    month: "Jun",
-    time: "10:00 AM",
-    location: "Annex Campus Hall",
+    location: "School Campus",
     color: "secondary"
   }
 ];
@@ -275,8 +263,8 @@ export const programs: Program[] = [
 
 export const campusSection: CampusSection = {
   id: 1,
-  title: "Main Campus",
-  description: "Our flagship campus features modern classrooms, science laboratories, computer labs, extensive sports facilities, and comfortable boarding accommodations for our senior students.",
+  title: "Kiage Tumaini Boy's Highschool Complex",
+  description: "Our flagship campus features modern classrooms, science laboratories, computer labs, extensive sports facilities, and comfortable boarding accommodations for our students.",
   image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/463996998_8524221257666398_1881651535161341590_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF6HR0F5Nghu1gsU92-DebK2YOfLhOQ9o_Zg58uE5D2j0jsT6lBa19YUiXUjFYh9JS1Ta2Kf8AGO4y7EIgQhFMh&_nc_ohc=Ryq7p0xIkBAQ7kNvwG4ar7K&_nc_oc=AdmK0osjhNXFS0IvtTn-BKWqk17AmhZI5T2A8FthtIhR7hV38hU-Xu_imOI6wuJOWss&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=pwWwRv3GRODSO0R9K4M5PQ&oh=00_AfGPM21T_MaZnDH75XcIw6neko5BhP0YeqNaT8MH70qx-A&oe=68019BA9",
   link: "/campuses/main"
 };
@@ -284,7 +272,7 @@ export const campusSection: CampusSection = {
 export const resultSections: ResultSection[] = [
   {
     id: 1,
-    title: "Main Campus",
+    title: "Our Campus",
     categories: [
       {
         id: 1,
@@ -302,30 +290,6 @@ export const resultSections: ResultSection[] = [
         id: 3,
         label: "Achieved A - C",
         percentage: 82,
-        color: "secondary"
-      }
-    ]
-  },
-  {
-    id: 2,
-    title: "Annex Campus",
-    categories: [
-      {
-        id: 1,
-        label: "Achieved A",
-        percentage: 20,
-        color: "secondary"
-      },
-      {
-        id: 2,
-        label: "Achieved A - B",
-        percentage: 52,
-        color: "primary"
-      },
-      {
-        id: 3,
-        label: "Achieved A - C",
-        percentage: 78,
         color: "secondary"
       }
     ]
@@ -394,13 +358,13 @@ export const technologyContent = {
   title: "Expanding the Bounds of Learning with Technology",
   description: "Our classrooms are no longer static entities confined by four walls. At Tumaini Kiage Boys High School, through the integration of modern technology, we're creating dynamic, interactive ecosystems where subjects come alive, inviting students to explore, question, and understand in ways previously unimaginable.",
   additionalInfo: "Technology-based learning sessions redefine the boundaries of education, making it an experiential journey rather than a passive acquisition of information. Our students develop critical thinking skills and prepare for the digital future while still maintaining our traditional values and educational excellence.",
-  image: "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464809487_8563082190446971_4149192860917869296_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHFP3zx-4sENrSTCrjpHnvnnr9_ejv1i1Oev396O_WLU10msqqqFw8RtkXYo3kvIaUC6-RUhXZ8XLbwyOXzuvtU&_nc_ohc=UKXg28LCrpwQ7kNvwHGFUSx&_nc_oc=AdmSdtGVLO3GXbAZsf7-e19Xm0-eiP72Hu5m3VOEMI0TybA-JtKjg2mFbs2_VFzbcOE&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=ZlUpZV0tA0yW_FezVwWMgw&oh=00_AfGjt_YAfg5mlOzw4AabYVbsWhewxbsb9Ri5TkVJNVwqcw&oe=68018437"
+  image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464809487_8563082190446971_4149192860917869296_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHFP3zx-4sENrSTCrjpHnvnnr9_ejv1i1Oev396O_WLU10msqqqFw8RtkXYo3kvIaUC6-RUhXZ8XLbwyOXzuvtU&_nc_ohc=jIqdgmRotmcQ7kNvwGv6xxK&_nc_oc=AdlbWa2mxtTL8voBiLtj_-9hxFwGhMc2SGl9rShS1FhwOtPQKnRFd1PEwlzaiyW7-Fs&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=ato20-AwBUNn3konwIa2IA&oh=00_AfFmg9EjS6EoKdXmnHV7TafSup8elV_N46Py0ynR0M8rug&oe=680EB337"
 };
 
 export const leadingSchoolContent = {
   title: "A Leading School",
   description: "As a member of the Kenya Secondary Schools Association, Kiage Tumaini Boy's High School is committed to providing a modern, forward-looking education while remaining anchored in the culture and traditions of Kenya and actively participating in the local community.",
-  image: "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/485022893_1173333304484394_4550122321825830294_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH0aXhGsIUdyZ-PzxcC_PpQBo_X877e11QGj9fzvt7XVCQbpRwlvvfjDbYFBmthsHH96WF9jHqOM7ECwSgHQufu&_nc_ohc=hMZVFFB3QNwQ7kNvwE65nth&_nc_oc=AdkVrKc1yVfd4LqGSwLFiCceNcsLaDcLSjQVHbhJqEaULUSGoKaThuvbtxjjhcmzdfM&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=Q__WSx2Vja3qWqVapCq2LA&oh=00_AfHbEFu1rk6iH-wB5qXg_w0ex6eoSQDTsb2qEZugQ8QSHQ&oe=68017CE4"
+  image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464344009_8534882446600279_5882791894603496916_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeFJ-TBvVTZYjHVZPC6qThG09apqlIUBMsD1qmqUhQEywFGLJLnVXTaLYW3Pi8vmvCKYF6haeay_0G-XjL6cS-A3&_nc_ohc=GhEywCrdAdwQ7kNvwFOvkgo&_nc_oc=AdkOyLHlOQpPe0pXjs3JmzZuSITROOe-3T4AIMcr-UBKJqguXG2VPU2C1HbCLk1tTto&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=m-lXdJgIcVNYxeml-nQWlQ&oh=00_AfGP874njZ3gETTWcsTnvLozjU76E4rkLovy6Rj4VkWidw&oe=680EBA6C"
 };
 
 
@@ -409,7 +373,7 @@ export const footerContent = {
   schoolInfo: {
     name: "Kiage Tumaini",
     subtitle: "Boy's High School",
-    description: "Providing excellence in education since 2005. Nurturing young men of character, integrity, and leadership."
+    description: "Providing excellence in education since 2011. Nurturing young men of character, integrity, and leadership."
   },
   quickLinks: [
     { text: "About Us", link: "/about" },

@@ -98,12 +98,12 @@ export default function AcademicProgram() {
         "Recognition for debate and public speaking achievements",
         "Strong representation in regional sports competitions"
       ],
-      staff: [
-        { name: "Dr. Elizabeth Maina", position: "Senior School Principal", qualification: "Ph.D. in Educational Leadership" },
-        { name: "Mr. Joseph Onyango", position: "Mathematics Department Head", qualification: "M.Sc. in Mathematics" },
-        { name: "Mrs. Beatrice Kimani", position: "Sciences Coordinator", qualification: "M.Sc. in Chemistry" },
-        { name: "Mr. David Njoroge", position: "Humanities Department Head", qualification: "M.A. in History" },
-        { name: "Ms. Agnes Wambui", position: "Career Guidance Counselor", qualification: "M.Ed. in Counseling Psychology" }
+      achievements: [
+        "Consistently ranking among top 20 schools nationally in KCSE results",
+        "Over 75% of graduates qualify for university admission",
+        "Multiple national awards in science and mathematics competitions",
+        "Recognition for debate and public speaking achievements",
+        "Strong representation in regional sports competitions"
       ],
       schedule: [
         { day: "Monday - Friday", activities: "7:00 AM - 5:00 PM: Academic classes with breaks" },
@@ -139,13 +139,21 @@ export default function AcademicProgram() {
         "Greater participation in leadership roles and community service",
         "Strong alumni network and boarding tradition spanning generations"
       ],
-      staff: [
-        { name: "Mr. Bernard Ochieng", position: "Boarding Master", qualification: "B.Ed. with Boarding Management training" },
-        { name: "Mrs. Joyce Kamau", position: "Assistant Boarding Mistress", qualification: "B.Ed. with Counseling Psychology" },
-        { name: "Mr. Samuel Wekesa", position: "House Parent - Senior Houses", qualification: "Diploma in Education, Boarding Management certification" },
-        { name: "Ms. Tabitha Wangari", position: "House Parent - Junior Houses", qualification: "B.Ed. with Child Psychology" },
-        { name: "Mr. Michael Kimani", position: "Evening Studies Coordinator", qualification: "B.Ed. in Mathematics and Physics" }
+      achievements: [
+        "Boarding students consistently achieve higher average KCSE scores",
+        "Strong performance in inter-school competitions due to additional practice time",
+        "Development of self-discipline reflected in lower disciplinary issues",
+        "Greater participation in leadership roles and community service",
+        "Strong alumni network and boarding tradition spanning generations"
       ],
+      schedule: [
+        { day: "Weekdays", activities: "5:00 AM: Wake up, personal preparation\n6:00 AM: Breakfast\n7:00 AM - 4:30 PM: Regular school day\n5:00 PM - 6:00 PM: Sports and recreation\n6:00 PM: Dinner\n7:00 PM - 9:30 PM: Evening study session\n10:00 PM: Lights out" },
+        { day: "Saturday", activities: "6:00 AM: Wake up\n7:00 AM: Breakfast\n8:00 AM - 10:00 AM: General cleaning\n10:00 AM - 12:00 PM: Supervised study\n12:30 PM: Lunch\n2:00 PM - 5:00 PM: Club activities and recreation\n6:00 PM: Dinner\n7:00 PM - 9:00 PM: Entertainment (movies, talent shows)\n10:30 PM: Lights out" },
+        { day: "Sunday", activities: "7:00 AM: Wake up\n8:00 AM: Breakfast\n9:00 AM - 12:00 PM: Religious services (optional)\n12:30 PM: Lunch\n2:00 PM - 4:00 PM: Free time\n4:00 PM - 6:00 PM: Preparation for the week\n6:00 PM: Dinner\n7:00 PM - 9:00 PM: Evening study session\n10:00 PM: Lights out" }
+      ]
+    }
+  };
+
       schedule: [
         { day: "Weekdays", activities: "5:00 AM: Wake up, personal preparation\n6:00 AM: Breakfast\n7:00 AM - 4:30 PM: Regular school day\n5:00 PM - 6:00 PM: Sports and recreation\n6:00 PM: Dinner\n7:00 PM - 9:30 PM: Evening study session\n10:00 PM: Lights out" },
         { day: "Saturday", activities: "6:00 AM: Wake up\n7:00 AM: Breakfast\n8:00 AM - 10:00 AM: General cleaning\n10:00 AM - 12:00 PM: Supervised study\n12:30 PM: Lunch\n2:00 PM - 5:00 PM: Club activities and recreation\n6:00 PM: Dinner\n7:00 PM - 9:00 PM: Entertainment (movies, talent shows)\n10:30 PM: Lights out" },
