@@ -300,24 +300,7 @@ export default function AcademicProgram() {
                   </Card>
                 </div>
                 
-                {/* Staff */}
-                <div>
-                  <h2 className="text-2xl font-serif font-bold text-[#556B2F] mb-6 flex items-center">
-                    <User className="mr-2 h-6 w-6 text-[#800000]" />
-                    Key Staff
-                  </h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {details.staff.map((person, index) => (
-                      <Card key={index}>
-                        <CardContent className="p-4">
-                          <h3 className="font-bold text-gray-800">{person.name}</h3>
-                          <p className="text-[#800000]">{person.position}</p>
-                          <p className="text-gray-600 text-sm">{person.qualification}</p>
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </div>
-                </div>
+                
               </div>
             </div>
             

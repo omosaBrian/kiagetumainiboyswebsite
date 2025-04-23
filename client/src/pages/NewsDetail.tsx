@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import { useRoute, Link } from 'wouter';
 import { ArrowLeft } from 'lucide-react';
@@ -11,7 +10,7 @@ export default function NewsDetail() {
   // Extract slug from route
   const [, params] = useRoute('/news-events/:slug');
   const slug = params?.slug || '';
-  
+
   // Find the news item
   const newsItem = newsItems.find(item => {
     // Extract slug from link
@@ -109,7 +108,7 @@ export default function NewsDetail() {
           </Button>
         </div>
       </div>
-      
+
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
@@ -122,7 +121,7 @@ export default function NewsDetail() {
                 />
               </div>
             </Card>
-            
+
             <div className="prose prose-lg max-w-none">
               {newsContent.fullContent.split('\n\n').map((paragraph, index) => (
                 <p key={index} className="text-gray-700 mb-4">
@@ -130,7 +129,7 @@ export default function NewsDetail() {
                 </p>
               ))}
             </div>
-            
+
             {newsContent.extraImages && (
               <div className="mt-10">
                 <h2 className="text-2xl font-serif font-bold text-[#556B2F] mb-6">Photo Gallery</h2>
@@ -149,7 +148,7 @@ export default function NewsDetail() {
                 </div>
               </div>
             )}
-            
+
             <div className="mt-12 text-center">
               <Button asChild className="bg-[#800000] hover:bg-[#660000]">
                 <Link href="/news-events">
