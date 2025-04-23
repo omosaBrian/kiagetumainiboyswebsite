@@ -66,7 +66,6 @@ export default function NewsDetail() {
         "attached_assets/public/images/trip6.jpg",
         "attached_assets/public/images/trip5.jpg"
       ]
-      ]
     },
     'sports-day-2023': {
       extraImages: [
