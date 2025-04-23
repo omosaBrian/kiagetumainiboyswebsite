@@ -6,7 +6,6 @@ import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Academics from "@/pages/Academics";
 import NewsEvents from "@/pages/NewsEvents";
-import Admissions from "@/pages/Admissions";
 import Contact from "@/pages/Contact";
 import Layout from "@/components/Layout";
 
@@ -25,7 +24,6 @@ function Router() {
         <Route path="/academics/:program" component={AcademicProgram} />
         <Route path="/news-events" component={NewsEvents} />
         <Route path="/news-events/:slug" component={NewsDetail} />
-        <Route path="/admissions" component={Admissions} />
         <Route path="/contact" component={Contact} />
         <Route path="/campuses/:campus" component={CampusDetail} />
         <Route component={NotFound} />
