@@ -1,3 +1,4 @@
+
 import { useEffect } from 'react';
 import { useRoute, Link } from 'wouter';
 import { ArrowLeft } from 'lucide-react';
@@ -54,23 +55,25 @@ export default function NewsDetail() {
         "attached_assets/public/images/trip1.jpg"
       ]
     },
+    'science-fair-success': {
       extraImages: [
         "attached_assets/public/images/trip2.jpg",
         "attached_assets/public/images/trip3.jpg"
       ]
     },
-`,
+    'university-partnership': {
       extraImages: [
         "attached_assets/public/images/trip6.jpg",
         "attached_assets/public/images/trip5.jpg"
       ]
     },
+    'sports-day-2023': {
       extraImages: [
         "attached_assets/public/images/sports2.jpg",
         "/images/sports2.jpg"
       ]
     },
-    `,
+    '12th-anniversary-celebration': {
       extraImages: [
         "/images/trip4.jpg",
         "/images/trip5.jpg"
