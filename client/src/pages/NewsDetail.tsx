@@ -48,7 +48,7 @@ export default function NewsDetail() {
   }
 
   // Content for each specific news item
-  const newsContentMap: Record<string, { fullContent: string, extraImages?: string[] }> = {
+  const newsContentMap: Record<string, { fullContent?: string, extraImages?: string[] }> = {
     'Gallery': {
       extraImages: [
         "attached_assets/public/images/sports1.jpg",
@@ -65,6 +65,7 @@ export default function NewsDetail() {
       extraImages: [
         "attached_assets/public/images/trip6.jpg",
         "attached_assets/public/images/trip5.jpg"
+      ]
       ]
     },
     'sports-day-2023': {
