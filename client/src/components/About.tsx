@@ -15,7 +15,7 @@ export default function About() {
           {/* Image Section */}
           <div className="md:w-1/2">
             <img 
-              src="https://scontent.fnbo10-1.fna.fbcdn.net/v/t1.6435-9/45288703_1950747978347125_3936876227352068096_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGoWCXCi7EGUO5qGeJ3OzYP9F6HSlbGIuf0XodKVsYi59JuSokirfcUilcWQVXRFkwOZPPTNHgWF6G6Ph2nRMVH&_nc_ohc=i4TTkTprKU8Q7kNvwHFhZHZ&_nc_oc=AdkNiF-Q2ZqVa_4BfE56BCOjzZNf_ni5lqfga483PUDOwjB1vMEIzDZCPqfh9_flReY&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=L6kN2a2RVyj7mcqprzQg5g&oh=00_AfEJTQF9yyMyoMw8z9IhM-5E9W0pGcsHSfcYsH4x6t90Cg&oe=68230BA1" 
+              src="/images/students2.jpg" 
               alt="Kiage Tumaini Boys High School students in classroom" 
               className="w-full h-auto rounded-lg shadow-xl"
             />

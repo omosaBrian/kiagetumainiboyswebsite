@@ -67,13 +67,13 @@ export default function NewsDetail() {
     },
       extraImages: [
         "attached_assets/public/images/sports2.jpg",
-        "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464270956_8534882233266967_862136308672317374_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEoy7RTysyiGKbJcfQHSvNJoX8rjHuUlWChfyuMe5SVYDkp81A6FQJBf8eNR5H1b-F_ANe5VglGaJ9EhP8G6a9b&_nc_ohc=xqeqXkCAZIEQ7kNvwFRY8cq&_nc_oc=Adl4O3BM7CvddDFc_mzshGXOafG4dOVfUJoMzdH0UHwxXWFUBM34LZdbeWC6eIeCr7E&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=4Lh26k6wiWRTvkpY8QWUyw&oh=00_AfHzH2yzcNuAQnHJNmoL071K0BZdMVpsALQ4lBjZqYlVeg&oe=68018F2B"
+        "/images/sports2.jpg"
       ]
     },
     `,
       extraImages: [
-        "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/464207497_8534882236600300_2460176837166733438_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEWLX5YdZL0RFeTXRFITGqU_Hvfm7SFAYD8e9-btIUBgGgUbHwe4qna_8M6RRHy_c3tQDAxpfmAqlXFJkzqICe9&_nc_ohc=PqWbZVv_7e8Q7kNvwFtIXBa&_nc_oc=AdkHuXvY9s1IafrdKCRBf57PtzE0DTgqbGu7DKiU18JWxPmtdI_L-0NFvOwRKi18XuA&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=-d4AWY5nzxXI4cFgSL5R2g&oh=00_AfGIpTJ3MSM4r5oZoc74WJ3GwYoxHQfgGLHh97U0Reu6BQ&oe=6801707E",
-        "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/464278507_8534882213266969_6052500488332855631_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeF7iflAGklIbkVCblLFUFfPl0_XemC8XdKXT9d6YLxd0kLiH1IjbNZ0z97f9dMiZbS1jMeRkP8lNjnnE2ck-zVu&_nc_ohc=RM4cr_jDNE4Q7kNvwGA2Elr&_nc_oc=Adn18g9XM5c1njL1dX3DCN6E_cAXhvnXeEFGB5ftHfLeXv1FZfP0tTU_a0_alDotwuM&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=5IokcNVVbsyi_N-oQZvEWw&oh=00_AfEvmJk1w2n-ObQTWPaYkZ9CWGNGvZvmJ1cApb2EMmdoog&oe=68019CC4"
+        "/images/trip4.jpg",
+        "/images/trip5.jpg"
       ]
     }
   };

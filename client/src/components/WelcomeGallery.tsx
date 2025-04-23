@@ -5,21 +5,21 @@ import { motion, AnimatePresence } from 'framer-motion';
 const galleryImages = [
   {
     id: 1,
-    src: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464748073_8563082410446949_8902343514568291852_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHCI0mfc3kRKSLC-8DlfaoduiVJFkozXHC6JUkWSjNccCJR0d2IePPPoYW2ZPNYhDffTGGVhGqBb5rjdcJLGenH&_nc_ohc=10e8-6bDFAoQ7kNvwFTaSO7&_nc_oc=AdnTLkomGVEXpV0aFIRoqrzuL1kljWFbAEW4ea-5B-ejKJD0FrgtDHlPqCY7_SqxpGo&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=Pn2ipAjuEGRw0cDdB2isuQ&oh=00_AfHhBOTfdYiFxf8uZjzZNITblpKUINg0OBJVx2-FhxOFPg&oe=6803ACFB",
+    src: "/images/classroom1.jpg",
     alt: "School Facilities",
     title: "Modern Infrastructure",
     description: "State-of-the-art facilities to support learning and development"
   },
   {
     id: 2,
-    src: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464450978_8534882656600258_8760644078716708290_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEBBcuvY0ERxPWzvdyqA7g-6WqRI5-BxF3papEjn4HEXXwteKcY1Usxsk2xCfUG1uiMFJSYKAKQTUPf8SNRY2aw&_nc_ohc=3x2RkSOHeYcQ7kNvwHvLOT9&_nc_oc=AdnyDejKLMyXPX8JMouTybt1RnU3dvSQ1-HBmVqn4IfmiqAjGyQ1JSAnEqLSrbkCz8s&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=5o_4h3hc6199PmjLC9aaaA&oh=00_AfERAQx-33rLGRiZ7REe_JRDc20xGkEWefuov3c0zgeopQ&oe=68039A1E",
+    src: "/images/students1.jpg",
     alt: "School Activities",
     title: "Student Life",
     description: "Engaging activities that foster holistic development"
   },
   {
     id: 3,
-    src: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464323190_8534882639933593_2849266266521394042_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEGC_E6a4uug4dL9lijNygbyaOtZKdZa7fJo61kp1lrt5nF9JzVERz1rfigzSOawLKFY2pK9nNldWBhD8euSuXe&_nc_ohc=vcnoCNb9q7IQ7kNvwEzu5T5&_nc_oc=Adm9iE8qW1u3_bfFwRLd3fur2AZIfX_V1pbkdOOOSvALksiRGYxBfoKFiJwCjJnBrQ8&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=ER7sjLfP9C051AbLYO2LTg&oh=00_AfEEV9-Wp9bIjfV-jaM3-p5hYXbW-Hq_JfMsnERLyR3kJA&oe=6803A853",
+    src: "/images/lab1.jpg",
     alt: "Academic Excellence",
     title: "Academic Focus",
     description: "Committed to academic excellence and student achievement"
