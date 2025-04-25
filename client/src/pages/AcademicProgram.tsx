@@ -154,14 +154,6 @@ export default function AcademicProgram() {
     }
   };
 
-      schedule: [
-        { day: "Weekdays", activities: "5:00 AM: Wake up, personal preparation\n6:00 AM: Breakfast\n7:00 AM - 4:30 PM: Regular school day\n5:00 PM - 6:00 PM: Sports and recreation\n6:00 PM: Dinner\n7:00 PM - 9:30 PM: Evening study session\n10:00 PM: Lights out" },
-        { day: "Saturday", activities: "6:00 AM: Wake up\n7:00 AM: Breakfast\n8:00 AM - 10:00 AM: General cleaning\n10:00 AM - 12:00 PM: Supervised study\n12:30 PM: Lunch\n2:00 PM - 5:00 PM: Club activities and recreation\n6:00 PM: Dinner\n7:00 PM - 9:00 PM: Entertainment (movies, talent shows)\n10:30 PM: Lights out" },
-        { day: "Sunday", activities: "7:00 AM: Wake up\n8:00 AM: Breakfast\n9:00 AM - 12:00 PM: Religious services (optional)\n12:30 PM: Lunch\n2:00 PM - 4:00 PM: Free time\n4:00 PM - 6:00 PM: Preparation for the week\n6:00 PM: Dinner\n7:00 PM - 9:00 PM: Evening study session\n10:00 PM: Lights out" }
-      ]
-    }
-  };
-
   // If program not found, show a not found message
   if (!program) {
     return (
