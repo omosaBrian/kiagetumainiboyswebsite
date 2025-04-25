@@ -3,106 +3,6 @@ export interface Announcement {
   link: string;
 }
 
-export const features = [
-  {
-    id: 1,
-    title: "Academic Excellence",
-    description: "Our rigorous curriculum and experienced faculty ensure high academic standards.",
-    icon: "book"
-  },
-  {
-    id: 2,
-    title: "Character Development",
-    description: "We focus on developing strong moral values and leadership skills.",
-    icon: "award"
-  },
-  {
-    id: 3,
-    title: "Modern Facilities",
-    description: "State-of-the-art classrooms, labs, and sporting facilities.",
-    icon: "home"
-  },
-  {
-    id: 4,
-    title: "Digital Learning",
-    description: "Integration of technology in education for enhanced learning.",
-    icon: "laptop"
-  },
-  {
-    id: 5,
-    title: "Student Support",
-    description: "Dedicated mentoring and guidance for every student.",
-    icon: "users"
-  }
-];
-
-export const aboutContent = {
-  description: "Established in 2005, Tumaini Kiage Boys High School is a premier educational institution located in Kitutu Chache South Sub County, Kisii County. Our experienced educators apply a personalized teaching approach to meet the needs of each individual student.",
-  vision: "To be a leading center of academic excellence, nurturing well-rounded individuals who are ready to face global challenges.",
-  motto: "God, Discipline and Success",
-  coreValues: [
-    "Academic Excellence",
-    "Spiritual Growth",
-    "Leadership Development",
-    "Character Formation",
-    "Innovation and Creativity"
-  ]
-};
-
-export const technologyContent = {
-  title: "Embracing Modern Technology",
-  description: "Our state-of-the-art facilities and modern teaching methods ensure students are prepared for the digital age.",
-  additionalInfo: "From smart classrooms to advanced science laboratories, we provide the tools needed for 21st-century learning.",
-  image: "/images/lab1.jpg"
-};
-
-export const leadingSchoolContent = {
-  title: "A Leading School in Kenya",
-  description: "As a member of the Kenya Secondary Schools Association, we are committed to providing modern education while staying true to our cultural values."
-};
-
-export const benefits = [
-  { id: 1, text: "Modern Learning Facilities" },
-  { id: 2, text: "Experienced Teaching Staff" },
-  { id: 3, text: "Strong Academic Performance" },
-  { id: 4, text: "Holistic Development" }
-];
-
-export const campusSection = [
-  {
-    id: 1,
-    title: "Main Campus",
-    description: "Our flagship campus features modern classrooms and extensive facilities.",
-    image: "/images/school 1.jpg",
-    link: "/campus/main"
-  }
-];
-
-export const resultSections = [
-  {
-    id: 1,
-    title: "KCSE Performance 2023",
-    categories: [
-      { id: 1, label: "A Grade", percentage: 15, color: "primary" },
-      { id: 2, label: "B Grade", percentage: 35, color: "secondary" },
-      { id: 3, label: "C Grade", percentage: 40, color: "primary" }
-    ]
-  }
-];
-
-export const footerContent = {
-  schoolInfo: {
-    name: "Kiage Tumaini Boys High School",
-    subtitle: "Excellence in Education",
-    description: "Nurturing tomorrow's leaders through quality education and character development."
-  },
-  socialMedia: [
-    { platform: "facebook", link: "#" },
-    { platform: "twitter", link: "#" },
-    { platform: "instagram", link: "#" }
-  ]
-};
-
 export interface HeroSlide {
   id: number;
   title: string;
@@ -158,31 +58,63 @@ export interface Program {
   variant: 'primary' | 'secondary';
 }
 
-export interface CampusSection {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-  link: string;
-}
+export const features = [
+  {
+    id: 1,
+    title: "Academic Excellence",
+    description: "Our rigorous curriculum and experienced faculty ensure high academic standards.",
+    icon: "book"
+  },
+  {
+    id: 2,
+    title: "Character Development",
+    description: "We focus on developing strong moral values and leadership skills.",
+    icon: "award"
+  },
+  {
+    id: 3,
+    title: "Modern Facilities",
+    description: "State-of-the-art classrooms, labs, and sporting facilities.",
+    icon: "home"
+  },
+  {
+    id: 4,
+    title: "Digital Learning",
+    description: "Integration of technology in education for enhanced learning.",
+    icon: "laptop"
+  },
+  {
+    id: 5,
+    title: "Student Support",
+    description: "Dedicated mentoring and guidance for every student.",
+    icon: "users"
+  }
+];
 
-export interface ResultCategory {
-  id: number;
-  label: string;
-  percentage: number;
-  color: 'primary' | 'secondary';
-}
+export const aboutContent = {
+  description: "Established in 2005, Tumaini Kiage Boys High School is a premier educational institution located in Kitutu Chache South Sub County, Kisii County. Our experienced educators apply a personalized teaching approach to meet the needs of each individual student.",
+  vision: "To be a leading center of academic excellence, nurturing well-rounded individuals who are ready to face global challenges.",
+  motto: "God, Discipline and Success",
+  coreValues: [
+    "Academic Excellence",
+    "Spiritual Growth", 
+    "Leadership Development",
+    "Character Formation",
+    "Innovation and Creativity"
+  ]
+};
 
-export interface ResultSection {
-  id: number;
-  title: string;
-  categories: ResultCategory[];
-}
+export const technologyContent = {
+  title: "Embracing Modern Technology",
+  description: "Our state-of-the-art facilities and modern teaching methods ensure students are prepared for the digital age.",
+  additionalInfo: "From smart classrooms to advanced science laboratories, we provide the tools needed for 21st-century learning.",
+  image: "/images/lab1.jpg"
+};
 
-export interface Benefit {
-  id: number;
-  text: string;
-}
+export const leadingSchoolContent = {
+  title: "A Leading School in Kenya",
+  description: "As a member of the Kenya Secondary Schools Association, we are committed to providing modern education while staying true to our cultural values."
+};
 
 export const announcement: Announcement = {
   text: "School Reopening: School reopens for Term 2 on May 5th, 2025. All students are expected to report by 8:00 AM.",
@@ -249,6 +181,48 @@ export const statistics: Statistic[] = [
     color: "primary"
   }
 ];
+
+export const benefits = [
+  { id: 1, text: "Modern Learning Facilities" },
+  { id: 2, text: "Experienced Teaching Staff" },
+  { id: 3, text: "Strong Academic Performance" },
+  { id: 4, text: "Holistic Development" }
+];
+
+export const campusSection = [
+  {
+    id: 1,
+    title: "Main Campus",
+    description: "Our flagship campus features modern classrooms and extensive facilities.",
+    image: "/images/school 1.jpg",
+    link: "/campus/main"
+  }
+];
+
+export const resultSections = [
+  {
+    id: 1,
+    title: "KCSE Performance 2023",
+    categories: [
+      { id: 1, label: "A Grade", percentage: 15, color: "primary" },
+      { id: 2, label: "B Grade", percentage: 35, color: "secondary" },
+      { id: 3, label: "C Grade", percentage: 40, color: "primary" }
+    ]
+  }
+];
+
+export const footerContent = {
+  schoolInfo: {
+    name: "Kiage Tumaini Boys High School",
+    subtitle: "Excellence in Education",
+    description: "Nurturing tomorrow's leaders through quality education and character development."
+  },
+  socialMedia: [
+    { platform: "facebook", link: "#" },
+    { platform: "twitter", link: "#" },
+    { platform: "instagram", link: "#" }
+  ]
+};
 
 export const newsItems: NewsItem[] = [
   {
