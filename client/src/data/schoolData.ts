@@ -3,6 +3,73 @@ export interface Announcement {
   link: string;
 }
 
+export const aboutContent = {
+  description: "Established in 2005, Tumaini Kiage Boys High School is a premier educational institution located in Kitutu Chache South Sub County, Kisii County. Our experienced educators apply a personalized teaching approach to meet the needs of each individual student.",
+  vision: "To be a leading center of academic excellence, nurturing well-rounded individuals who are ready to face global challenges.",
+  motto: "God, Discipline and Success",
+  coreValues: [
+    "Academic Excellence",
+    "Spiritual Growth",
+    "Leadership Development",
+    "Character Formation",
+    "Innovation and Creativity"
+  ]
+};
+
+export const technologyContent = {
+  title: "Embracing Modern Technology",
+  description: "Our state-of-the-art facilities and modern teaching methods ensure students are prepared for the digital age.",
+  additionalInfo: "From smart classrooms to advanced science laboratories, we provide the tools needed for 21st-century learning.",
+  image: "/images/lab1.jpg"
+};
+
+export const leadingSchoolContent = {
+  title: "A Leading School in Kenya",
+  description: "As a member of the Kenya Secondary Schools Association, we are committed to providing modern education while staying true to our cultural values."
+};
+
+export const benefits = [
+  { id: 1, text: "Modern Learning Facilities" },
+  { id: 2, text: "Experienced Teaching Staff" },
+  { id: 3, text: "Strong Academic Performance" },
+  { id: 4, text: "Holistic Development" }
+];
+
+export const campusSection = [
+  {
+    id: 1,
+    title: "Main Campus",
+    description: "Our flagship campus features modern classrooms and extensive facilities.",
+    image: "/images/school 1.jpg",
+    link: "/campus/main"
+  }
+];
+
+export const resultSections = [
+  {
+    id: 1,
+    title: "KCSE Performance 2023",
+    categories: [
+      { id: 1, label: "A Grade", percentage: 15, color: "primary" },
+      { id: 2, label: "B Grade", percentage: 35, color: "secondary" },
+      { id: 3, label: "C Grade", percentage: 40, color: "primary" }
+    ]
+  }
+];
+
+export const footerContent = {
+  schoolInfo: {
+    name: "Kiage Tumaini Boys High School",
+    subtitle: "Excellence in Education",
+    description: "Nurturing tomorrow's leaders through quality education and character development."
+  },
+  socialMedia: [
+    { platform: "facebook", link: "#" },
+    { platform: "twitter", link: "#" },
+    { platform: "instagram", link: "#" }
+  ]
+};
+
 export interface HeroSlide {
   id: number;
   title: string;
