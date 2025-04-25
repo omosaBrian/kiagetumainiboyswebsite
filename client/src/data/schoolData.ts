@@ -3,6 +3,39 @@ export interface Announcement {
   link: string;
 }
 
+export const features = [
+  {
+    id: 1,
+    title: "Academic Excellence",
+    description: "Our rigorous curriculum and experienced faculty ensure high academic standards.",
+    icon: "book"
+  },
+  {
+    id: 2,
+    title: "Character Development",
+    description: "We focus on developing strong moral values and leadership skills.",
+    icon: "award"
+  },
+  {
+    id: 3,
+    title: "Modern Facilities",
+    description: "State-of-the-art classrooms, labs, and sporting facilities.",
+    icon: "home"
+  },
+  {
+    id: 4,
+    title: "Digital Learning",
+    description: "Integration of technology in education for enhanced learning.",
+    icon: "laptop"
+  },
+  {
+    id: 5,
+    title: "Student Support",
+    description: "Dedicated mentoring and guidance for every student.",
+    icon: "users"
+  }
+];
+
 export const aboutContent = {
   description: "Established in 2005, Tumaini Kiage Boys High School is a premier educational institution located in Kitutu Chache South Sub County, Kisii County. Our experienced educators apply a personalized teaching approach to meet the needs of each individual student.",
   vision: "To be a leading center of academic excellence, nurturing well-rounded individuals who are ready to face global challenges.",
