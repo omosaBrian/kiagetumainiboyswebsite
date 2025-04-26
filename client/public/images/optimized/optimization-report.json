@@ -1,0 +1,141 @@
+{
+  "totalImages": 19,
+  "totalOriginalSize": 2158815,
+  "totalOptimizedSize": 2250625,
+  "averageReduction": -16.04263157894737,
+  "details": [
+    {
+      "file": "classroom1.jpg",
+      "originalSize": 106534,
+      "optimizedSize": 97466,
+      "reduction": "8.51",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "classroom2.jpg",
+      "originalSize": 129860,
+      "optimizedSize": 51756,
+      "reduction": "60.14",
+      "dimensions": "444x800"
+    },
+    {
+      "file": "director1.jpg",
+      "originalSize": 168818,
+      "optimizedSize": 78865,
+      "reduction": "53.28",
+      "dimensions": "440x800"
+    },
+    {
+      "file": "lab1.jpg",
+      "originalSize": 93481,
+      "optimizedSize": 113601,
+      "reduction": "-21.52",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "school 1.jpg",
+      "originalSize": 186836,
+      "optimizedSize": 97548,
+      "reduction": "47.79",
+      "dimensions": "1200x553"
+    },
+    {
+      "file": "sports1.jpg",
+      "originalSize": 124149,
+      "optimizedSize": 177738,
+      "reduction": "-43.17",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "sports2.jpg",
+      "originalSize": 118082,
+      "optimizedSize": 181444,
+      "reduction": "-53.66",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "students1.jpg",
+      "originalSize": 134432,
+      "optimizedSize": 121742,
+      "reduction": "9.44",
+      "dimensions": "1200x900"
+    },
+    {
+      "file": "students2.jpg",
+      "originalSize": 152339,
+      "optimizedSize": 244145,
+      "reduction": "-60.26",
+      "dimensions": "1200x1193"
+    },
+    {
+      "file": "students3.jpg",
+      "originalSize": 125434,
+      "optimizedSize": 115868,
+      "reduction": "7.63",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "students4.jpg",
+      "originalSize": 170735,
+      "optimizedSize": 160990,
+      "reduction": "5.71",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "students5.jpg",
+      "originalSize": 51727,
+      "optimizedSize": 48178,
+      "reduction": "6.86",
+      "dimensions": "440x800"
+    },
+    {
+      "file": "students6.jpg",
+      "originalSize": 137244,
+      "optimizedSize": 129333,
+      "reduction": "5.76",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "trip1.jpg",
+      "originalSize": 72216,
+      "optimizedSize": 121870,
+      "reduction": "-68.76",
+      "dimensions": "1200x900"
+    },
+    {
+      "file": "trip2.jpg",
+      "originalSize": 47455,
+      "optimizedSize": 81757,
+      "reduction": "-72.28",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "trip3.jpg",
+      "originalSize": 48577,
+      "optimizedSize": 82996,
+      "reduction": "-70.85",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "trip4.jpg",
+      "originalSize": 76756,
+      "optimizedSize": 125652,
+      "reduction": "-63.70",
+      "dimensions": "1200x801"
+    },
+    {
+      "file": "trip5.jpg",
+      "originalSize": 47093,
+      "optimizedSize": 81467,
+      "reduction": "-72.99",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "trip6.jpg",
+      "originalSize": 167047,
+      "optimizedSize": 138209,
+      "reduction": "17.26",
+      "dimensions": "1200x675"
+    }
+  ]
+}

@@ -15,8 +15,8 @@ export default function About() {
           {/* Image Section */}
           <div className="md:w-1/2">
             <img 
-              src="/images/students2.jpg" 
-              alt="Kiage Tumaini Boys High School students in classroom" 
+              src="/images/director1.jpg" 
+              alt="Director of Kiage Tumaini Boys High School" 
               className="w-full h-auto rounded-lg shadow-xl"
             />
           </div>
@@ -31,11 +31,11 @@ export default function About() {
             </p>
             
             <div className="mb-6">
-              <h3 className="text-xl font-bold text-[#556B2F] mb-3">Vision</h3>
-              <p className="text-gray-700 mb-4">{aboutContent.vision}</p>
-              
               <h3 className="text-xl font-bold text-[#556B2F] mb-3">Motto</h3>
               <p className="text-gray-700 mb-4">{aboutContent.motto}</p>
+              
+              <h3 className="text-xl font-bold text-[#556B2F] mb-3">Vision</h3>
+              <p className="text-gray-700 mb-4">{aboutContent.vision}</p>
               
               <h3 className="text-xl font-bold text-[#556B2F] mb-3">Core Values</h3>
               <ul className="list-disc pl-5 space-y-2">

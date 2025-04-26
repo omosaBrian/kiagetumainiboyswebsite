@@ -47,35 +47,26 @@ export default function NewsDetail() {
   }
 
   // Content for each specific news item
-  const newsContentMap: Record<string, { fullContent?: string, extraImages?: string[] }> = {
-    'Gallery': {
+  const newsContentMap: Record<string, { fullContent: string, extraImages?: string[] }> = {
+    '12th-anniversary-celebration': {
+      fullContent: "The school recently celebrated its 12th anniversary with a grand event that recognized the achievements of students, staff, and alumni. The celebration included cultural performances, academic exhibitions, and speeches from distinguished guests. The event highlighted our school's journey of growth and excellence over the past 12 years. It was a moment of pride for our entire school community, celebrating our achievements and looking forward to future successes.",
       extraImages: [
-        "attached_assets/public/images/sports1.jpg",
-        "attached_assets/public/images/trip1.jpg"
+        "/images/students1.jpg",
+        "/images/students2.jpg"
       ]
     },
     'science-fair-success': {
+      fullContent: "Our students recently participated in the National Science Fair, showcasing their innovative projects and winning several awards. The event was a testament to our commitment to scientific excellence and innovation. Students demonstrated projects ranging from renewable energy solutions to agricultural technology improvements. The success at the science fair highlights our school's dedication to fostering scientific curiosity and practical problem-solving skills among our students.",
       extraImages: [
-        "attached_assets/public/images/trip2.jpg",
-        "attached_assets/public/images/trip3.jpg"
+        "/images/lab1.jpg",
+        "/images/students3.jpg"
       ]
     },
     'university-partnership': {
+      fullContent: "Kiage Tumaini has established a new partnership with the University of Nairobi to provide academic and research opportunities for our students. This collaboration will offer our students access to university-level resources, mentorship programs, and research opportunities. The partnership aims to bridge the gap between secondary and higher education, preparing our students for successful university careers. This initiative is part of our ongoing commitment to providing the best possible educational opportunities for our students.",
       extraImages: [
-        "attached_assets/public/images/trip6.jpg",
-        "attached_assets/public/images/trip5.jpg"
-      ]
-    },
-    'sports-day-2023': {
-      extraImages: [
-        "attached_assets/public/images/sports2.jpg",
-        "/images/sports2.jpg"
-      ]
-    },
-    '12th-anniversary-celebration': {
-      extraImages: [
-        "/images/trip4.jpg",
-        "/images/trip5.jpg"
+        "/images/students4.jpg",
+        "/images/students5.jpg"
       ]
     }
   };
@@ -84,7 +75,8 @@ export default function NewsDetail() {
   const linkParts = newsItem.link.split('/');
   const itemSlug = linkParts[linkParts.length - 1];
   const newsContent = newsContentMap[itemSlug] || { 
-    fullContent: "Full article content will be available soon." 
+    fullContent: "Full article content will be available soon.",
+    extraImages: []
   };
 
   return (
@@ -123,7 +115,7 @@ export default function NewsDetail() {
             </Card>
 
             <div className="prose prose-lg max-w-none">
-              {newsContent.fullContent.split('\n\n').map((paragraph, index) => (
+              {(newsContent.fullContent || "Full article content will be available soon.").split('\n\n').map((paragraph, index) => (
                 <p key={index} className="text-gray-700 mb-4">
                   {paragraph}
                 </p>

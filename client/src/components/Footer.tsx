@@ -19,7 +19,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#556B2F] text-white">
+    <footer className="bg-[#800000] text-white">
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
@@ -27,7 +27,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               {/* School Logo - placeholder for now */}
-              <div className="h-12 w-12 bg-white text-[#556B2F] rounded-full flex items-center justify-center mr-3">
+              <div className="h-12 w-12 bg-white text-[#800000] rounded-full flex items-center justify-center mr-3">
                 <span className="font-bold text-lg">KT</span>
               </div>
               <div>
@@ -91,35 +91,12 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          
-          {/* Newsletter */}
-          <div>
-            <h3 className="text-lg font-bold mb-4">Newsletter</h3>
-            <p className="text-gray-300 mb-4">
-              Subscribe to our newsletter to receive school updates and news.
-            </p>
-            <form className="space-y-3" onSubmit={(e) => e.preventDefault()}>
-              <div>
-                <Input 
-                  type="email" 
-                  placeholder="Your Email" 
-                  className="px-4 py-2 rounded bg-[#455B1F] border border-[#394C1F] text-white w-full focus:outline-none focus:ring-2 focus:ring-[#800000]"
-                />
-              </div>
-              <Button 
-                type="submit" 
-                className="px-4 py-2 bg-[#800000] text-white rounded hover:bg-[#660000] transition w-full"
-              >
-                Subscribe
-              </Button>
-            </form>
-          </div>
         </div>
       </div>
       
       {/* Copyright */}
-      <div className="bg-[#405B20] py-4">
-        <div className="container mx-auto px-4 text-center text-gray-400 text-sm">
+      <div className="bg-[#660000] py-4">
+        <div className="container mx-auto px-4 text-center text-gray-300 text-sm">
           <p>{footerContent.copyright}</p>
         </div>
       </div>

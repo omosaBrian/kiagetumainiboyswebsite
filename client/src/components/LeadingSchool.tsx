@@ -9,8 +9,8 @@ export default function LeadingSchool() {
           {/* Image */}
           <div className="md:w-1/2">
             <img 
-              src={leadingSchoolContent.image}
-              alt="Real World Experiences In Education" 
+              src="/images/contest1.jpg"
+              alt="Kiage Tumaini Boys High School Contest" 
               className="w-full h-auto rounded-lg shadow-xl"
             />
           </div>

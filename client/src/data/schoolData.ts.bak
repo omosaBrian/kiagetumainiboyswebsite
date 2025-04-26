@@ -92,7 +92,7 @@ export const features = [
 ];
 
 export const aboutContent = {
-  description: "Established in 2011, Kiage TumainiBoys High School is a premier educational institution located in Kitutu Chache South Sub County, Kisii County. Our experienced educators apply a personalized teaching approach to meet the needs of each individual student.",
+  description: "Established in 2005, Tumaini Kiage Boys High School is a premier educational institution located in Kitutu Chache South Sub County, Kisii County. Our experienced educators apply a personalized teaching approach to meet the needs of each individual student.",
   vision: "To be a leading center of academic excellence, nurturing well-rounded individuals who are ready to face global challenges.",
   motto: "God, Discipline and Success",
   coreValues: [
@@ -103,12 +103,12 @@ export const aboutContent = {
     "Innovation and Creativity"
   ],
   history: {
-    establishment: "Founded in 2011, Kiage Tumaini Boys High School began with a vision to provide quality education to young men in Kisii County. Starting with just 50 students and 5 teachers, the school has grown into a leading educational institution in the region.",
+    establishment: "Founded in 2005, Kiage Tumaini Boys High School began with a vision to provide quality education to young men in Kisii County. Starting with just 50 students and 5 teachers, the school has grown into a leading educational institution in the region.",
     milestones: [
-      { year: "2011", event: "School founded with initial enrollment of 50 students" },
-      { year: "2012", event: "First KCSE class graduates with impressive results" },
-      { year: "2015", event: "Expansion of facilities including new science laboratories" },
-      { year: "2018", event: "Introduction of digital learning program" },
+      { year: "2005", event: "School founded with initial enrollment of 50 students" },
+      { year: "2008", event: "First KCSE class graduates with impressive results" },
+      { year: "2012", event: "Expansion of facilities including new science laboratories" },
+      { year: "2015", event: "Introduction of digital learning program" },
       { year: "2020", event: "Achievement of 95% KCSE pass rate" }
     ]
   },
@@ -140,7 +140,7 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Book A Tour",
     buttonLink: "/contact",
     buttonVariant: "secondary",
-    image: "/images/school 1.jpg"
+    image: "/images/hero-students.jpg"
   },
   {
     id: 2,
@@ -149,7 +149,7 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Learn More",
     buttonLink: "/about",
     buttonVariant: "primary",
-    image: "/images/trip4.jpg"
+    image: "/images/hero-trip.jpg"
   },
   {
     id: 3,
@@ -158,7 +158,7 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Explore Programs",
     buttonLink: "/academics",
     buttonVariant: "primary",
-    image: "/images/classroom1.jpg"
+    image: "/images/hero-school.jpg"
   }
 ];
 
@@ -172,7 +172,7 @@ export const statistics: Statistic[] = [
   },
   {
     id: 2,
-    value: 13,
+    value: 51,
     suffix: "",
     label: "Years of Excellence",
     color: "primary"
@@ -205,7 +205,7 @@ export const campusSection = [
     id: 1,
     title: "Main Campus",
     description: "Our flagship campus features modern classrooms and extensive facilities.",
-    image: "/images/school 1.jpg",
+    image: "/images/campus-main.jpg",
     link: "/campus/main"
   }
 ];
@@ -218,15 +218,6 @@ export const resultSections = [
       { id: 1, label: "A Grade", percentage: 15, color: "primary" },
       { id: 2, label: "B Grade", percentage: 35, color: "secondary" },
       { id: 3, label: "C Grade", percentage: 40, color: "primary" }
-    ]
-  },
-  {
-    id: 2,
-    title: "KCSE Performance 2024",
-    categories: [
-      { id: 1, label: "A Grade", percentage: 18, color: "primary" },
-      { id: 2, label: "B Grade", percentage: 38, color: "secondary" },
-      { id: 3, label: "C Grade", percentage: 42, color: "primary" }
     ]
   }
 ];
@@ -263,11 +254,11 @@ export const footerContent = {
 export const newsItems: NewsItem[] = [
   {
     id: 1,
-    image: "/images/trip6.jpg",
-    title: "Kiage Tumaini Celebrates 13 Years of Excellence",
-    excerpt: "The school recently celebrated its 13th anniversary with a grand event that recognized the achievements of students, staff, and alumni. ",
-    date: "2024-05-12",
-    link: "/news-events/13th-anniversary-celebration"
+    image: "/images/classroom1.jpg",
+    title: "Kiage Tumaini Celebrates 12 Years of Excellence",
+    excerpt: "The school recently celebrated its 12th anniversary with a grand event that recognized the achievements of students, staff, and alumni. ",
+    date: "2023-05-12",
+    link: "/news-events/12th-anniversary-celebration"
   },
   {
     id: 2,
@@ -302,7 +293,7 @@ export const programs: Program[] = [
     title: "Form Two",
     ageRange: "15-16 years",
     description: "Building on core knowledge with increased focus on practical applications.",
-    image: "/images/trip1.jpg",
+    image: "/images/form2.jpg",
     link: "/academics/form-two",
     variant: "secondary"
   },
@@ -311,7 +302,7 @@ export const programs: Program[] = [
     title: "Form Three",
     ageRange: "16-17 years",
     description: "Advanced studies with specialization options and career guidance.",
-    image: "/images/students3.jpg",
+    image: "/images/form3.jpg",
     link: "/academics/form-three",
     variant: "primary"
   },
@@ -320,7 +311,7 @@ export const programs: Program[] = [
     title: "Form Four",
     ageRange: "17-18 years",
     description: "Final year preparation for KCSE examinations and university entrance.",
-    image: "/images/students1.jpg",
+    image: "/images/form4.jpg",
     link: "/academics/form-four",
     variant: "secondary"
   }
@@ -364,13 +355,13 @@ export const classroomSection = [
     id: 1,
     title: "Modern Classrooms",
     description: "Our classrooms are equipped with modern technology and comfortable learning spaces.",
-    image: "/images/students6.jpg"
+    image: "/images/classroom-modern.jpg"
   },
   {
     id: 2,
     title: "Interactive Learning",
     description: "Students engage in collaborative and interactive learning experiences.",
-    image: "/images/trip5.jpg"
+    image: "/images/classroom-students.jpg"
   }
 ];
 
@@ -379,24 +370,24 @@ export const formSection = [
     id: 1,
     title: "Form 1",
     description: "Our Form 1 program focuses on building strong academic foundations.",
-    image: "/images/students1.jpg"
+    image: "/images/form-1.jpg"
   },
   {
     id: 2,
     title: "Form 2",
     description: "Form 2 students develop critical thinking and problem-solving skills.",
-    image: "/images/students2.jpg"
+    image: "/images/form-2.jpg"
   },
   {
     id: 3,
     title: "Form 3",
     description: "Form 3 curriculum emphasizes advanced concepts and practical applications.",
-    image: "/images/students3.jpg"
+    image: "/images/form-3.jpg"
   },
   {
     id: 4,
     title: "Form 4",
     description: "Form 4 prepares students for KCSE examinations and future success.",
-    image: "/images/students4.jpg"
+    image: "/images/form-4.jpg"
   }
 ];
